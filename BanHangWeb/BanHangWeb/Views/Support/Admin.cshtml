@@ -1,0 +1,141 @@
+﻿@{
+    ViewData["Title"] = "Hỗ trợ khách hàng";
+}
+
+<div class="container-fluid py-4">
+    <h2 class="mb-4 fw-bold">Hỗ trợ khách hàng</h2>
+
+    <div class="row g-3">
+        <!-- CỘT 1: DANH SÁCH HỘI THOẠI -->
+        <div class="col-md-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <span class="fw-semibold">Đoạn hội thoại với khách hàng</span>
+                    <button id="refreshConversations"
+                            type="button"
+                            class="btn btn-sm btn-outline-secondary">
+                        Làm mới
+                    </button>
+                </div>
+
+                <ul id="conversationList"
+                    class="list-group list-group-flush"
+                    style="max-height: 420px; overflow-y: auto;">
+                    @* support.js sẽ render từng khách tại đây *@
+                </ul>
+            </div>
+        </div>
+
+        <!-- CỘT 2: KHUNG CHAT (NỘI DUNG HỘI THOẠI) -->
+        <div class="col-md-5">
+            <div class="card shadow-sm h-100">
+                <!-- Header + nút ĐÓNG HỘI THOẠI -->
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <h5 id="conversationTitle" class="mb-0 fw-semibold">
+                        Chưa chọn khách
+                    </h5>
+
+                    <button id="btn-close-conversation"
+                            type="button"
+                            class="btn btn-sm btn-outline-danger">
+                        Đóng hội thoại
+                    </button>
+                </div>
+
+                <div class="card-body d-flex flex-column p-2">
+                    <!-- Khu vực hiển thị tin nhắn -->
+                    <div id="messages"
+                         class="border rounded p-2 mb-2 flex-grow-1"
+                         style="height:260px; overflow-y:auto; background-color:#f8f9fa;">
+                        @* support.js sẽ đổ tin nhắn của khách được chọn vào đây *@
+                    </div>
+
+                    <!-- Ô nhập + GỬI ẢNH + GỬI TEXT -->
+                    <div class="input-group">
+                        <button id="btnSendImage"
+                                type="button"
+                                class="btn btn-outline-secondary">
+                            <i class="bi bi-image"></i>
+                        </button>
+
+                        <input id="messageInput"
+                               class="form-control"
+                               placeholder="Nhập nội dung..." />
+
+                        <button id="sendButton" class="btn btn-primary">
+                            Gửi
+                        </button>
+                    </div>
+
+                    <!-- input file ẩn để chọn ảnh -->
+                    <input type="file"
+                           id="imageInput"
+                           accept="image/*"
+                           class="d-none" />
+                </div>
+            </div>
+        </div>
+
+        <!-- CỘT 3: VIDEO CALL -->
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-header">
+                    <h5 class="mb-0">Video call</h5>
+                </div>
+
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12 mb-3">
+                            <span class="small text-muted">Nhân viên hỗ trợ</span>
+                            <video id="localVideo"
+                                   autoplay
+                                   playsinline
+                                   class="w-100 border rounded bg-dark"
+                                   style="min-height: 180px;">
+                            </video>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <span class="small text-muted">Khách hàng</span>
+                            <video id="remoteVideo"
+                                   autoplay
+                                   playsinline
+                                   class="w-100 border rounded bg-dark"
+                                   style="min-height: 180px;">
+                            </video>
+                        </div>
+                    </div>
+
+                    <!-- Nút điều khiển cuộc gọi -->
+                    <div class="mt-2 text-center">
+                        <button id="startCallBtn" class="btn btn-success me-2">
+                            <i class="bi bi-camera-video"></i> Gọi video
+                        </button>
+
+                        <button id="hangupBtn" class="btn btn-danger">
+                            <i class="bi bi-telephone-x"></i> Kết thúc
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <!-- SignalR JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+
+    <script>
+        // Cho support.js biết đây là Admin
+        window.SUPPORT_ROLE = "admin";
+        window.CURRENT_USER_NAME = "@(User.Identity?.Name ?? "Admin")";
+
+        // Khi vào trang hỗ trợ → coi như đã đọc hết tin nhắn (xóa badge trên navbar)
+        if (window.resetSupportUnread) {
+            window.resetSupportUnread();
+        }
+    </script>
+
+    <!-- JS xử lý chat / video / thông báo -->
+    <script src="~/js/support.js" asp-append-version="true"></script>
+}

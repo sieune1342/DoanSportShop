@@ -1,0 +1,62 @@
+﻿@model IEnumerable<BanHangWeb.Models.Order>
+
+@{
+    ViewData["Title"] = "Danh sách đơn hàng";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Mã đơn hàng</th>  <!-- Thêm cột mã đơn hàng -->
+            <th>Khách hàng</th>
+            <th>Ngày đặt</th>
+            <th>Tổng tiền</th>
+            <th>Trạng thái</th>
+            <th>Chi tiết</th>
+            <th>Cập nhật trạng thái</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td><strong>#@item.Id</strong></td>  <!-- Hiển thị mã đơn hàng -->
+                <td>@item.CustomerName</td>
+                <td>@item.OrderDate.ToString("dd/MM/yyyy HH:mm")</td>
+                <td>@item.TotalPrice.ToString("N0") ₫</td>
+                <td>
+                    <span class="badge @GetStatusBadgeClass(item.Status)">
+                        @item.Status
+                    </span>
+                </td>
+                <td>
+                    <a class="btn btn-sm btn-info" asp-action="Details" asp-route-id="@item.Id">Xem</a>
+                </td>
+                <td>
+                    <form method="post" asp-action="UpdateStatus" asp-route-id="@item.Id">
+                        <input type="text" name="orderStatus" value="@item.Status" class="form-control" />
+                        <button type="submit" class="btn btn-sm btn-primary mt-2">Cập nhật</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@functions {
+    public string GetStatusBadgeClass(string status)
+    {
+        // Kiểm tra giá trị trạng thái và đảm bảo không có khoảng trắng thừa
+        var trimmedStatus = status.Trim();
+        return trimmedStatus switch
+        {
+            "Chờ xác nhận" => "bg-warning text-dark",  // Màu vàng
+            "Đang giao" => "bg-primary text-white",  // Màu xanh dương
+            "Hoàn thành" => "bg-success text-white", // Màu xanh lá
+            "Đã hủy" => "bg-danger text-white",     // Màu đỏ
+            _ => "bg-secondary text-white",          // Màu xám (mặc định)
+        };
+    }
+}

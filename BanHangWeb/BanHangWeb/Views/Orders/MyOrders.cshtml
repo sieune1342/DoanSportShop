@@ -1,0 +1,60 @@
+﻿@model List<BanHangWeb.Models.Order>
+
+@{
+    ViewData["Title"] = "Đơn hàng của tôi";
+}
+
+<h2>Đơn hàng của tôi</h2>
+
+@if (Model == null || !Model.Any())
+{
+    <p>Bạn chưa có đơn hàng nào.</p>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Mã đơn</th>
+                <th>Ngày đặt</th>
+                <th>Tổng tiền</th>
+                <th>Trạng thái</th>
+                <th>Thông Tin</th> <!-- Thêm cột -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.Id</td>
+                    <td>@order.OrderDate.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>@order.TotalPrice.ToString("N0") đ</td>
+                    <td>
+                        <span class="badge @GetStatusBadgeClass(order.Status)">
+                            @order.Status
+                        </span>
+                    </td>
+                    <td>
+                        <a asp-controller="Orders" asp-action="Details" asp-route-id="@order.Id" class="btn btn-sm btn-info">
+                            Xem chi tiết
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@functions {
+    public string GetStatusBadgeClass(string status)
+    {
+        return status switch
+        {
+            "Chờ xác nhận" => "bg-warning text-dark",  // Màu vàng
+            "Đang giao" => "bg-primary text-white",  // Màu xanh dương
+            "Hoàn thành" => "bg-success text-white", // Màu xanh lá
+            "Đã hủy" => "bg-danger text-white",     // Màu đỏ
+            _ => "bg-secondary text-white",          // Màu xám (mặc định)
+        };
+    }
+}

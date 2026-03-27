@@ -1,0 +1,128 @@
+﻿@model BanHangWeb.Models.Product
+
+@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+}
+
+<h2 class="mb-4">🧸 <strong>Chi tiết sản phẩm</strong></h2>
+
+<div class="card shadow-sm border-0">
+    <div class="row g-0">
+        <!-- Hình ảnh chính -->
+        <div class="col-md-5 p-3">
+            <img src="@Model.ImageUrl" class="img-fluid rounded shadow-sm mb-3" alt="Ảnh sản phẩm"
+                 data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="@Model.ImageUrl" />
+        </div>
+
+        <!-- Thông tin sản phẩm -->
+        <div class="col-md-7 p-4">
+            <h3 class="mb-3"><i class="bi bi-box-seam me-2"></i>@Model.Name</h3>
+            <p><i class="bi bi-cash-coin me-1 text-success"></i><strong>Giá:</strong> @Model.Price.ToString("#,##0") VNĐ</p>
+            <p><i class="bi bi-tags me-1 text-primary"></i><strong>Danh mục:</strong> @Model.Category?.Name</p>
+            <p><i class="bi bi-file-text me-1 text-muted"></i><strong>Mô tả:</strong> @Model.Description</p>
+
+            @if (User.Identity.IsAuthenticated)
+            {
+                <form asp-controller="Cart" asp-action="AddToCart" method="post">
+                    <input type="hidden" name="productId" value="@Model.Id" />
+
+                    <!-- Size -->
+                    @if (!string.IsNullOrEmpty(Model.Sizes))
+                    {
+                        <div class="mt-4">
+                            <strong class="d-block mb-2"><i class="bi bi-aspect-ratio me-1 text-info"></i>Chọn size:</strong>
+                            <div class="d-flex flex-wrap gap-2">
+                                @foreach (var size in System.Text.Json.JsonSerializer.Deserialize<List<string>>(Model.Sizes))
+                                {
+                                    <input type="radio" class="btn-check" name="selectedSize" id="size_@size" value="@size" required>
+                                    <label class="btn btn-outline-primary rounded-pill px-3" for="size_@size">
+                                        @size
+                                    </label>
+                                }
+                            </div>
+                        </div>
+                    }
+                    @if (Model.ColorList != null && Model.ColorList.Any())
+                    {
+                        <div class="mt-4">
+                            <strong class="d-block mb-2">
+                                <i class="bi bi-palette me-1 text-info"></i>Chọn màu:
+                            </strong>
+
+                            <div class="d-flex flex-wrap gap-2">
+                                @foreach (var color in Model.ColorList)
+                                {
+                                    <input type="radio"
+                                           class="btn-check"
+                                           name="selectedColor"
+                                           id="color_@color"
+                                           value="@color"
+                                           required />
+
+                                    <label class="btn btn-outline-primary rounded-pill px-3"
+                                           for="color_@color">
+                                        @color
+                                    </label>
+                                }
+                            </div>
+                        </div>
+                    }
+
+
+                    <!-- Nút thêm vào giỏ -->
+                    <button type="submit" class="btn btn-success mt-4 px-4 py-2 rounded-pill fs-5 shadow-sm">
+                        🛒 Thêm vào giỏ hàng
+                    </button>
+                </form>
+
+                <!-- Nút quay lại -->
+                <div class="mt-3">
+                    <a asp-action="Index" class="btn btn-outline-secondary px-4 py-2 rounded-pill shadow-sm">
+                        🔙 Quay lại
+                    </a>
+                </div>
+            }
+            else
+            {
+                <a asp-area="Identity" asp-page="/Account/Login"
+                   asp-route-returnUrl="@Url.Action("Details", "Products", new { id = Model.Id })"
+                   class="btn btn-secondary mt-3 px-4 py-2 rounded-pill fs-5 shadow-sm">
+                    🔐 Đăng nhập để mua
+                </a>
+
+                <div class="mt-3">
+                    <a asp-action="Index" class="btn btn-outline-secondary px-4 py-2 rounded-pill shadow-sm">
+                        🔙 Quay lại
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- Modal xem ảnh lớn -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Ảnh sản phẩm</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img id="modalImage" src="" class="img-fluid" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript cập nhật ảnh modal -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var modal = document.getElementById("imageModal");
+        modal.addEventListener("show.bs.modal", function (event) {
+            var button = event.relatedTarget;
+            var imageUrl = button.getAttribute("data-bs-image");
+            document.getElementById("modalImage").src = imageUrl;
+        });
+    });
+</script>

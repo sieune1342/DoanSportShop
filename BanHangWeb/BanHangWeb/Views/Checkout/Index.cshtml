@@ -1,0 +1,200 @@
+﻿@model BanHangWeb.Models.Order
+
+@{
+    ViewData["Title"] = "Thanh toán";
+
+    // Lấy tổng tiền từ ViewBag, ép về int để JS dùng an toàn
+    int subtotal = ViewBag.TotalPrice != null ? Convert.ToInt32(ViewBag.TotalPrice) : 0;
+}
+
+<h2 class="text-center text-gradient fw-bold my-4">💳 Thanh toán đơn hàng</h2>
+
+<!-- CSS của Leaflet (cho bản đồ) -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+        <form asp-action="PlaceOrder" method="post" class="shadow p-4 rounded-4 bg-white">
+            <!-- 👤 Họ tên -->
+            <div class="mb-3">
+                <label class="form-label fw-semibold">👤 Họ và tên</label>
+                <input type="text" class="form-control" asp-for="CustomerName" required placeholder="Nguyễn Văn A" />
+            </div>
+
+            <!-- 📍 Địa chỉ -->
+            <div class="mb-3">
+                <label class="form-label fw-semibold">📍 Địa chỉ nhận hàng</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" asp-for="Address" id="addressInput" required placeholder="123 đường ABC, TP XYZ" />
+                    <button type="button" class="btn btn-outline-primary" id="btnFindAddress">🔍 Tìm</button>
+                </div>
+            </div>
+
+            <!-- 📞 Điện thoại -->
+            <div class="mb-3">
+                <label class="form-label fw-semibold">📞 Số điện thoại</label>
+                <input type="tel" class="form-control" asp-for="Phone" required placeholder="0123456789" />
+            </div>
+
+            <!-- 📧 Email -->
+            <div class="mb-3">
+                <label class="form-label fw-semibold">📧 Email</label>
+                <input type="email" class="form-control" asp-for="Email" required placeholder="you@example.com" />
+            </div>
+
+            <!-- 📝 Ghi chú -->
+            <div class="mb-3">
+                <label class="form-label fw-semibold">📝 Ghi chú</label>
+                <textarea class="form-control" asp-for="Note" rows="3" placeholder="Giao vào giờ hành chính..."></textarea>
+            </div>
+
+            <!-- 📌 Bản đồ chọn vị trí -->
+            <div class="mb-3">
+                <label class="form-label fw-semibold">📌 Chọn vị trí trên bản đồ:</label>
+                <div id="map" class="rounded-3 border" style="height: 350px;"></div>
+            </div>
+
+            <!-- 🧾 Chi phí hiển thị -->
+            <div class="row text-center my-3">
+                <div class="col-4">
+                    <label class="fw-semibold">🛍 Tiền hàng:</label>
+                    <div class="text-primary">@subtotal.ToString("#,##0") VNĐ</div>
+                </div>
+                <div class="col-4">
+                    <label class="fw-semibold">🚚 Phí ship:</label>
+                    <div id="shipFeeDisplay" class="text-danger">0 VNĐ</div>
+                </div>
+                <div class="col-4">
+                    <label class="fw-semibold">💰 Tổng thanh toán:</label>
+                    <div id="totalPayDisplay" class="text-success fw-bold">@subtotal.ToString("#,##0") VNĐ</div>
+                </div>
+            </div>
+
+            <!-- Hidden inputs để gửi ship & tổng -->
+            <input type="hidden" asp-for="ShippingFee" id="shippingFeeInput" value="0" />
+            <input type="hidden" asp-for="TotalPayment" id="totalPaymentInput" value="@subtotal" />
+
+            <div class="d-grid mt-4">
+                <button type="submit" class="btn btn-gradient-success btn-lg rounded-pill shadow-sm">
+                    ✅ Xác nhận & Đặt hàng
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script>
+        // Toạ độ cửa hàng (HUTECH)
+        const shopLat = 10.8015, shopLng = 106.7147;
+        const shippingPerKm = 3000;
+
+        // subtotal từ server (kiểu number)
+        let subtotal = @subtotal;
+
+        let map, customerMarker;
+
+        // Hàm tính khoảng cách Haversine (km)
+        function haversine(lat1, lon1, lat2, lon2) {
+            const R = 6371;
+            const dLat = (lat2 - lat1) * Math.PI / 180;
+            const dLon = (lon2 - lon1) * Math.PI / 180;
+            const a = Math.sin(dLat / 2) ** 2 +
+                Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                Math.sin(dLon / 2) ** 2;
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+            return R * c;
+        }
+
+        function updateShipping(lat, lng) {
+            const distance = haversine(shopLat, shopLng, lat, lng);
+            const fee = Math.ceil(distance) * shippingPerKm;
+            const total = subtotal + fee;
+
+            document.getElementById("shipFeeDisplay").innerText = fee.toLocaleString() + " VNĐ";
+            document.getElementById("totalPayDisplay").innerText = total.toLocaleString() + " VNĐ";
+
+            document.getElementById("shippingFeeInput").value = fee;
+            document.getElementById("totalPaymentInput").value = total;
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // Khởi tạo map
+            map = L.map('map').setView([shopLat, shopLng], 14);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(map);
+
+            // Marker cửa hàng
+            L.marker([shopLat, shopLng]).addTo(map).bindPopup("🏬 HUTECH").openPopup();
+
+            // Marker vị trí giao hàng (kéo thả được)
+            customerMarker = L.marker([shopLat, shopLng], { draggable: true })
+                .addTo(map)
+                .bindPopup("📦 Vị trí giao hàng")
+                .openPopup();
+
+            customerMarker.on('dragend', function (e) {
+                const pos = e.target.getLatLng();
+                updateShipping(pos.lat, pos.lng);
+            });
+
+            // Nút "Tìm" địa chỉ
+            document.getElementById("btnFindAddress").addEventListener("click", function () {
+                const address = document.getElementById("addressInput").value.trim();
+                if (!address) {
+                    alert("Vui lòng nhập địa chỉ!");
+                    return;
+                }
+
+                fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(address)}`)
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.length > 0) {
+                            const lat = parseFloat(data[0].lat);
+                            const lng = parseFloat(data[0].lon);
+                            map.setView([lat, lng], 15);
+                            customerMarker.setLatLng([lat, lng]).openPopup();
+                            updateShipping(lat, lng);
+                        } else {
+                            alert("Không tìm thấy địa chỉ!");
+                        }
+                    })
+                    .catch(err => {
+                        console.error(err);
+                        alert("Không thể tìm địa chỉ, thử lại sau!");
+                    });
+            });
+
+            // Mặc định tính phí ship từ HUTECH
+            updateShipping(shopLat, shopLng);
+        });
+    </script>
+}
+
+<style>
+    .text-gradient {
+        background: linear-gradient(to right, #00b4db, #0083b0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .btn-gradient-success {
+        background: linear-gradient(45deg, #00c853, #b2ff59);
+        color: white;
+        border: none;
+    }
+
+        .btn-gradient-success:hover {
+            opacity: 0.95;
+        }
+
+    input::placeholder,
+    textarea::placeholder {
+        color: #aaa;
+        font-style: italic;
+    }
+</style>

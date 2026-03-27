@@ -1,0 +1,240 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using BanHangWeb.Models
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Đồ Thể Thao</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    @RenderSection("Styles", required: false)
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+@{
+    // Lấy tên controller / action hiện tại
+    var controller = (ViewContext.RouteData.Values["Controller"] ?? "").ToString();
+    var action = (ViewContext.RouteData.Values["Action"] ?? "").ToString();
+
+    // Lấy Razor Page hiện tại (cho Identity)
+    var page = (ViewContext.RouteData.Values["Page"] ?? "").ToString();
+
+    // Ẩn header + footer ở:
+    //  - Support/Index, Support/Video (iframe chat + trang video)
+    //  - /Account/Login, /Account/Register, /Account/ForgotPassword,
+    //    /Account/ForgotPasswordConfirmation, /Account/ResetPassword
+    var hideChrome =
+        (controller == "Support" && (action == "Index" || action == "Video"))
+        || page == "/Account/Register"
+        || page == "/Account/Login"
+        || page == "/Account/ForgotPassword"
+        || page == "/Account/ForgotPasswordConfirmation"
+        || page == "/Account/ResetPassword";
+}
+
+    <!-- HEADER -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-danger shadow-sm @(hideChrome ? "d-none" : "")">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-white" asp-controller="Home" asp-action="Index">⚽ ĐỒ THỂ THAO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-controller="Home" asp-action="Index">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-controller="Products" asp-action="Index">Sản phẩm</a>
+                    </li>
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <!-- 🔹 Đơn hàng: chỉ hiện khi đã đăng nhập -->
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-controller="Orders" asp-action="MyOrders">Đơn hàng</a>
+                        </li>
+
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white position-relative"
+                                   href="#"
+                                   id="adminDropdown"
+                                   role="button"
+                                   data-bs-toggle="dropdown">
+                                    Quản trị
+                                    <!-- 🔔 Badge tổng số tin nhắn hỗ trợ -->
+                                    <span id="supportBadgeNav"
+                                          class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark d-none"
+                                          style="font-size: 0.65rem;">
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a class="dropdown-item" asp-controller="Admin" asp-action="Dashboard">
+                                            📊 Thống kê
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" asp-controller="Categories" asp-action="Index">
+                                            📂 Danh mục
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" asp-controller="AdminOrders" asp-action="Index">
+                                            🛒 Đơn hàng
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" asp-controller="AdminUsers" asp-action="Index">
+                                            👤 Tài khoản
+                                        </a>
+                                    </li>
+
+                                    <!-- 🔹 Link trang hỗ trợ dành riêng cho Admin -->
+                                    <li><hr class="dropdown-divider" /></li>
+                                    <li>
+                                        <a class="dropdown-item d-flex justify-content-between align-items-center"
+                                           asp-controller="Support" asp-action="Admin">
+                                            💬 Hỗ trợ khách hàng
+                                            <!-- 🔔 Badge ngay trên menu Hỗ trợ -->
+                                            <span id="supportBadgeMenu"
+                                                  class="badge rounded-pill bg-danger text-white d-none"
+                                                  style="font-size: 0.75rem;">
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+                    }
+                </ul>
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" asp-controller="Cart" asp-action="Index">
+                            🛒 Giỏ hàng <span class="badge bg-warning text-dark">@ViewData["CartItemCount"]</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <partial name="_LoginPartial" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main role="main" class="flex-fill">
+        @if (hideChrome)
+        {
+            @RenderBody()   <!-- Trang auth + support tự lo layout full màn -->
+        }
+        else
+        {
+            <div class="container py-4">
+                @RenderBody()
+            </div>
+        }
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white text-center p-3 mt-5 @(hideChrome ? "d-none" : "")">
+        <div class="container">
+            <p class="mb-1">© 2025 ĐỒ THỂ THAO. All rights reserved.</p>
+            <small>
+                <a asp-controller="Home" asp-action="Privacy" class="text-white text-decoration-underline">Chính sách bảo mật</a> |
+                Liên hệ: 📧 kien16092013@gmail.com | ☎ 0123-456-789
+            </small>
+        </div>
+    </footer>
+
+    <!-- 🔹 WIDGET HỖ TRỢ: chỉ hiện cho KHÁCH (không phải Admin) ở TRANG CHỦ -->
+    @if (User.Identity.IsAuthenticated
+        && !User.IsInRole("Admin")
+        && controller == "Home"
+        && action == "Index")
+    {
+        <div id="support-widget">
+            <button id="btn-support-toggle" class="support-main-btn">
+                <span class="support-main-icon">
+                    <i class="bi bi-chat-dots"></i>
+                </span>
+                <span class="support-main-text">Hỗ trợ</span>
+            </button>
+        </div>
+
+        <div id="support-chat-panel" class="support-panel">
+            <div class="support-panel-header">
+                <span class="support-panel-title">Hỗ trợ khách hàng</span>
+                <div class="support-panel-actions">
+                    <button type="button" id="btn-support-close" class="support-header-btn">×</button>
+                </div>
+            </div>
+            <div class="support-panel-body">
+                <iframe src="@Url.Action("Index", "Support")"
+                        title="Hỗ trợ khách hàng"
+                        allow="camera; microphone; fullscreen; display-capture"
+                        style="border:0; width:100%; height:100%;"></iframe>
+            </div>
+        </div>
+    }
+
+    <!-- Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const panel = document.getElementById("support-chat-panel");
+            const btnToggle = document.getElementById("btn-support-toggle");
+            const btnClose = document.getElementById("btn-support-close");
+
+            if (btnToggle && panel) {
+                btnToggle.addEventListener("click", function () {
+                    panel.classList.add("open");
+                });
+            }
+
+            if (btnClose && panel) {
+                btnClose.addEventListener("click", function () {
+                    panel.classList.remove("open");
+                });
+            }
+            if (panel && localStorage.getItem("openSupport") === "1") {
+                panel.classList.add("open");
+                localStorage.removeItem("openSupport");
+            }
+        });
+    </script>
+
+    @* Chỉ load SignalR + supportNotify cho ADMIN *@
+    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+    {
+        <script>
+            window.CURRENT_USER_NAME = "@User.Identity.Name";
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+        <script src="~/js/supportNotify.js" asp-append-version="true"></script>
+    }
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

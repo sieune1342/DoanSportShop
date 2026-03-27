@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Microsoft.AspNetCore.Identity.IdentityUser>
+
+@{
+    ViewData["Title"] = "Quản lý tài khoản";
+}
+
+<h2>👤 Quản lý tài khoản</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Khóa/Mở khóa</th>
+            <th>Xóa</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Email</td>
+                <td>
+                    <a asp-action="ToggleLock" asp-route-id="@user.Id" class="btn btn-warning">
+                        @(user.LockoutEnd != null && user.LockoutEnd > DateTimeOffset.Now ? "🔓 Mở khóa" : "🔒 Khóa")
+                    </a>
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@user.Id" class="btn btn-danger"
+                       onclick="return confirm('Bạn có chắc muốn xóa tài khoản này?');">🗑️ Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

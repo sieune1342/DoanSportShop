@@ -1,0 +1,197 @@
+﻿@model BanHangWeb.Models.Product
+@using System.Text.Json
+@{
+    ViewData["Title"] = "Thêm sản phẩm";
+    var sizesList = string.IsNullOrEmpty(Model.Sizes) ? new List<string>() : JsonSerializer.Deserialize<List<string>>(Model.Sizes);
+    var colorsList = string.IsNullOrEmpty(Model.Colors)
+        ? new List<string>()
+        : JsonSerializer.Deserialize<List<string>>(Model.Colors);
+}
+
+<h2 class="mb-4">🛍️ Thêm sản phẩm mới</h2>
+
+<form asp-action="Create" enctype="multipart/form-data" class="p-4 rounded shadow bg-white">
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="row">
+        <!-- Cột trái -->
+        <div class="col-md-6">
+            <div class="form-group mb-3">
+                <label asp-for="Name" class="form-label fw-semibold">Tên sản phẩm</label>
+                <input asp-for="Name" class="form-control rounded-3 shadow-sm" />
+                <span asp-validation-for="Name" class="text-danger small"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Price" class="form-label fw-semibold">Giá bán</label>
+                <input asp-for="Price" class="form-control rounded-3 shadow-sm" />
+                <span asp-validation-for="Price" class="text-danger small"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="CategoryId" class="form-label fw-semibold">Danh mục sản phẩm</label>
+                <select asp-for="CategoryId" class="form-control rounded-3 shadow-sm" asp-items="ViewBag.CategoryId">
+                    <option value="">-- Chọn danh mục --</option>
+                </select>
+                <span asp-validation-for="CategoryId" class="text-danger small"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Description" class="form-label fw-semibold">Mô tả</label>
+                <textarea asp-for="Description" class="form-control rounded-3 shadow-sm" rows="4"></textarea>
+                <span asp-validation-for="Description" class="text-danger small"></span>
+            </div>
+
+            <div class="form-group mb-3">
+                <label asp-for="Quantity" class="form-label fw-semibold">Số lượng</label>
+                <input asp-for="Quantity" class="form-control rounded-3 shadow-sm" />
+                <span asp-validation-for="Quantity" class="text-danger small"></span>
+            </div>
+        </div>
+
+        <!-- Cột phải -->
+        <div class="col-md-6">
+            <!-- Size -->
+            <div class="form-group mb-3">
+                <label class="form-label fw-semibold">Chọn Size</label>
+                <input type="text" id="sizeInput" class="form-control" placeholder="Nhập size, nhấn Enter để thêm" />
+                <div id="sizeList" class="mt-2"></div>
+                <input type="hidden" asp-for="Sizes" id="SizesHidden" />
+            </div>
+            <!-- Color -->
+            <div class="form-group mb-3">
+                <label class="form-label fw-semibold">Chọn màu</label>
+                <input type="text" id="colorInput" class="form-control"
+                       placeholder="Nhập màu, nhấn Enter để thêm" />
+                <div id="colorList" class="mt-2"></div>
+                <input type="hidden" asp-for="Colors" id="ColorsHidden" />
+            </div>
+        </div>
+
+            <!-- Ảnh sản phẩm -->
+            <div class="form-group mb-3">
+                <label asp-for="ImageFile" class="form-label fw-semibold">Ảnh sản phẩm</label>
+                <input type="file" asp-for="ImageFile" class="form-control rounded-3 shadow-sm" />
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-4 text-end">
+        <button type="submit" class="btn btn-success px-4 rounded-3 shadow-sm">💾 Lưu</button>
+        <a asp-action="Index" class="btn btn-secondary px-4 rounded-3">↩ Quay lại</a>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let sizes = @Html.Raw(JsonSerializer.Serialize(sizesList));
+
+            function updateHiddenFields() {
+                document.getElementById("SizesHidden").value = JSON.stringify(sizes);
+            }
+
+            function renderBadges(listId, dataArray, removeClass) {
+                const list = document.getElementById(listId);
+                list.innerHTML = '';
+                dataArray.forEach(item => {
+                    const span = document.createElement("span");
+                    span.classList.add("badge", "bg-secondary", "me-2", "mb-1");
+                    span.innerHTML = `${item} <span class="${removeClass}" style="cursor:pointer;">❌</span>`;
+                    list.appendChild(span);
+                });
+            }
+
+            function addBadge(listId, inputId, dataArray, removeClass) {
+                const input = document.getElementById(inputId);
+                const list = document.getElementById(listId);
+
+                input.addEventListener("keypress", function (event) {
+                    if (event.key === "Enter" && input.value.trim() !== "") {
+                        event.preventDefault();
+                        const newItem = input.value.trim();
+                        if (!dataArray.includes(newItem)) {
+                            dataArray.push(newItem);
+                            renderBadges(listId, dataArray, removeClass);
+                            updateHiddenFields();
+                        }
+                        input.value = "";
+                    }
+                });
+
+                list.addEventListener("click", function (event) {
+                    if (event.target.classList.contains(removeClass)) {
+                        const item = event.target.parentNode.textContent.trim().replace(" ❌", "");
+                        const index = dataArray.indexOf(item);
+                        if (index !== -1) {
+                            dataArray.splice(index, 1);
+                            renderBadges(listId, dataArray, removeClass);
+                            updateHiddenFields();
+                        }
+                    }
+                });
+
+                renderBadges(listId, dataArray, removeClass);
+            }
+
+            addBadge("sizeList", "sizeInput", sizes, "remove-size");
+            updateHiddenFields();
+        });
+    </script>
+    <!-- Script xử lý màu -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let colors = @Html.Raw(JsonSerializer.Serialize(colorsList));
+
+            function updateHiddenFieldsColor() {
+                document.getElementById("ColorsHidden").value = JSON.stringify(colors);
+            }
+
+            function renderBadgesColor(listId, dataArray, removeClass) {
+                const list = document.getElementById(listId);
+                list.innerHTML = '';
+                dataArray.forEach(item => {
+                    const span = document.createElement("span");
+                    span.classList.add("badge", "bg-secondary", "me-2", "mb-1");
+                    span.innerHTML = `${item} <span class="${removeClass}" style="cursor:pointer;">❌</span>`;
+                    list.appendChild(span);
+                });
+            }
+
+            function addBadgeColor(listId, inputId, dataArray, removeClass) {
+                const input = document.getElementById(inputId);
+                const list = document.getElementById(listId);
+
+                input.addEventListener("keypress", function (event) {
+                    if (event.key === "Enter" && input.value.trim() !== "") {
+                        event.preventDefault();
+                        const newItem = input.value.trim();
+                        if (!dataArray.includes(newItem)) {
+                            dataArray.push(newItem);
+                            renderBadgesColor(listId, dataArray, removeClass);
+                            updateHiddenFieldsColor();
+                        }
+                        input.value = "";
+                    }
+                });
+
+                list.addEventListener("click", function (event) {
+                    if (event.target.classList.contains(removeClass)) {
+                        const item = event.target.parentNode.textContent.trim().replace(" ❌", "");
+                        const index = dataArray.indexOf(item);
+                        if (index !== -1) {
+                            dataArray.splice(index, 1);
+                            renderBadgesColor(listId, dataArray, removeClass);
+                            updateHiddenFieldsColor();
+                        }
+                    }
+                });
+
+                renderBadgesColor(listId, dataArray, removeClass);
+            }
+
+            addBadgeColor("colorList", "colorInput", colors, "remove-color");
+            updateHiddenFieldsColor();
+        });
+    </script>
+
+}

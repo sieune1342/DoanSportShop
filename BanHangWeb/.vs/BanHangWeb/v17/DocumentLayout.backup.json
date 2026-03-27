@@ -1,0 +1,1637 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\areas\\identity\\pages\\account\\resetpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\areas\\identity\\pages\\account\\resetpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\areas\\identity\\pages\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\areas\\identity\\pages\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\banhangweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\banhangweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\support\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\support\\admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\wwwroot\\js\\support.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\wwwroot\\js\\support.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\hubs\\supporthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\hubs\\supporthub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\support\\video.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\support\\video.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\support\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\support\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\controllers\\supportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\controllers\\supportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20250405194152_trangthai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20250405194152_trangthai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\wwwroot\\css\\styles-register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\wwwroot\\css\\styles-register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\models\\supportmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\models\\supportmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\wwwroot\\js\\supportnotify.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\wwwroot\\js\\supportnotify.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20251206085345_addsupportmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20251206085345_addsupportmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20251122052553_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20251122052553_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20250622083145_add_shippingfee_and_totalpayment_to_order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20250622083145_add_shippingfee_and_totalpayment_to_order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20250622075612_tenmigrationmoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20250622075612_tenmigrationmoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20250330091716_addproductimagestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20250330091716_addproductimagestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20250330081217_addsizesandcolorstoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20250330081217_addsizesandcolorstoproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20250329173923_updateidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20250329173923_updateidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20250327184253_initdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20250327184253_initdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\checkout\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\checkout\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\controllers\\api\\cartapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\controllers\\api\\cartapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\models\\oders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\models\\oders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\controllers\\api\\checkoutapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\controllers\\api\\checkoutapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\Migrations\\20250622074735_SyncSchema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20250601154627_addproductquantity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20250601154627_addproductquantity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\Migrations\\20250622073825_SyncNewChanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\Migrations\\20250622073654_SyncSchema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\Migrations\\20250622073037_AddShippingFeeAndTotalPaymentToOrder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\controllers\\api\\ordersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\controllers\\api\\ordersapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\controllers\\api\\productsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\controllers\\api\\productsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\orders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\adminorders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\adminorders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\orders\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\orders\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\adminorders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\adminorders\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\adminusers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\adminusers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\controllers\\adminorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\controllers\\adminorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\controllers\\adminuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\controllers\\adminuserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\visual\\BanHangWeb\\BanHangWeb\\Migrations\\20250406112606_AddUserIdToOrders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\visual\\BanHangWeb\\BanHangWeb\\Migrations\\20250406104749_AddUserIdToOrder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\visual\\BanHangWeb\\BanHangWeb\\Migrations\\20250406104554_AddUserToOrder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\categories\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\categories\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\visual\\BanHangWeb\\BanHangWeb\\Migrations\\20250327184055_a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\visual\\BanHangWeb\\BanHangWeb\\Migrations\\20250327183947_InitNoIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\visual\\BanHangWeb\\BanHangWeb\\Migrations\\20250327175720_UpdateDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20250327184301_addorderdetailstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20250327184301_addorderdetailstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20250327184258_addorderstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20250327184258_addorderstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20250327184256_addcategoriestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20250327184256_addcategoriestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20250329184336_addproductdescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20250329184336_addproductdescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20250330094911_updateproductdetailimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20250330094911_updateproductdetailimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20250330091307_addproductimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20250330091307_addproductimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20251206123435_addisimagetosupportmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20251206123435_addisimagetosupportmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20251206101923_addtousertosupportmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20251206101923_addtousertosupportmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20251206071921_changeproductorderdetaildeletebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20251206071921_changeproductorderdetaildeletebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|c:\\users\\pc\\downloads\\chuyen nganh\\sportshop\\sportshop\\banhangweb\\banhangweb\\migrations\\20251206153325_addcolors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE864AB3-548D-4A8B-994E-2721C0CC3B05}|BanHangWeb\\BanHangWeb.csproj|solutionrelative:banhangweb\\migrations\\20251206153325_addcolors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResetPassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "RelativeToolTip": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAwE8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T10:50:05.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ForgotPasswordConfirmation.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml.cs",
+              "RelativeToolTip": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAcwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T13:33:41.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ForgotPasswordConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T11:36:14.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "BanHangWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\appsettings.json",
+              "RelativeToolTip": "BanHangWeb\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-25T15:54:27.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ForgotPassword.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeToolTip": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T10:49:47.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAAwPAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T16:15:00.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T14:09:40.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAgwHAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T11:36:22.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAgwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-07T10:49:32.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Program.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Program.cs",
+              "RelativeToolTip": "BanHangWeb\\Program.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAowNUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:55:51.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Services\\EmailService.cs",
+              "RelativeToolTip": "BanHangWeb\\Services\\EmailService.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAowF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:05:34.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BanHangWeb.csproj",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\BanHangWeb.csproj",
+              "RelativeDocumentMoniker": "BanHangWeb\\BanHangWeb.csproj",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\BanHangWeb.csproj",
+              "RelativeToolTip": "BanHangWeb\\BanHangWeb.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-28T10:09:56.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "BanHangWeb\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "BanHangWeb\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-19T09:47:35.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Admin.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Support\\Admin.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Support\\Admin.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Support\\Admin.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Support\\Admin.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAYwI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T05:16:48.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "support.js",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\wwwroot\\js\\support.js",
+              "RelativeDocumentMoniker": "BanHangWeb\\wwwroot\\js\\support.js",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\wwwroot\\js\\support.js",
+              "RelativeToolTip": "BanHangWeb\\wwwroot\\js\\support.js",
+              "ViewState": "AgIAANwBAAAAAAAAAAAowPABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-22T05:19:26.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SupportHub.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Hubs\\SupportHub.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Hubs\\SupportHub.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Hubs\\SupportHub.cs",
+              "RelativeToolTip": "BanHangWeb\\Hubs\\SupportHub.cs",
+              "ViewState": "AgIAAGMBAAAAAAAAAAAowHcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T05:14:21.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAowJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T09:58:05.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "BanHangWeb\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:00:44.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Support\\Index.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Support\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Support\\Index.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Support\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T05:16:30.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SupportController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\SupportController.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Controllers\\SupportController.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\SupportController.cs",
+              "RelativeToolTip": "BanHangWeb\\Controllers\\SupportController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T05:15:00.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Video.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Support\\Video.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Support\\Video.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Support\\Video.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Support\\Video.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T18:34:22.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T16:04:31.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T18:30:52.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Models\\Product.cs",
+              "RelativeToolTip": "BanHangWeb\\Models\\Product.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAwwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:58:07.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T18:04:02.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAIkAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T09:57:41.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAAFAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T16:30:50.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAgwCEAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T16:01:39.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "20251206153325_AddColors.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20251206153325_AddColors.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20251206153325_AddColors.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20251206153325_AddColors.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20251206153325_AddColors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T15:33:25.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-29T18:15:26.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20250405194152_trangthai.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250405194152_trangthai.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20250405194152_trangthai.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250405194152_trangthai.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20250405194152_trangthai.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T19:41:52.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAUwIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T04:47:46.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "BanHangWeb\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "BanHangWeb\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAiwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-19T11:05:39.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "styles-register.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\wwwroot\\css\\styles-register.css",
+              "RelativeDocumentMoniker": "BanHangWeb\\wwwroot\\css\\styles-register.css",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\wwwroot\\css\\styles-register.css",
+              "RelativeToolTip": "BanHangWeb\\wwwroot\\css\\styles-register.css",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-06T12:55:14.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "20251206123435_AddIsImageToSupportMessage.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20251206123435_AddIsImageToSupportMessage.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20251206123435_AddIsImageToSupportMessage.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20251206123435_AddIsImageToSupportMessage.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20251206123435_AddIsImageToSupportMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T12:34:35.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SupportMessage.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Models\\SupportMessage.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Models\\SupportMessage.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Models\\SupportMessage.cs",
+              "RelativeToolTip": "BanHangWeb\\Models\\SupportMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T08:52:40.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Checkout\\Index.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Checkout\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Checkout\\Index.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Checkout\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T17:57:23.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BanHangWeb\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:52:49.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-06T09:36:21.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "supportNotify.js",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\wwwroot\\js\\supportNotify.js",
+              "RelativeDocumentMoniker": "BanHangWeb\\wwwroot\\js\\supportNotify.js",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\wwwroot\\js\\supportNotify.js",
+              "RelativeToolTip": "BanHangWeb\\wwwroot\\js\\supportNotify.js",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-06T10:49:50.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "20251206101923_AddToUserToSupportMessage.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20251206101923_AddToUserToSupportMessage.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20251206101923_AddToUserToSupportMessage.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20251206101923_AddToUserToSupportMessage.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20251206101923_AddToUserToSupportMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T10:19:24.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20251206085345_AddSupportMessage.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20251206085345_AddSupportMessage.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20251206085345_AddSupportMessage.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20251206085345_AddSupportMessage.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20251206085345_AddSupportMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T08:53:46.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "BanHangWeb\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "BanHangWeb\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-06T08:09:12.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "20251206071921_ChangeProductOrderDetailDeleteBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20251206071921_ChangeProductOrderDetailDeleteBehavior.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20251206071921_ChangeProductOrderDetailDeleteBehavior.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20251206071921_ChangeProductOrderDetailDeleteBehavior.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20251206071921_ChangeProductOrderDetailDeleteBehavior.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T07:19:22.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T09:15:43.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20250622083145_Add_ShippingFee_And_TotalPayment_To_Order.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250622083145_Add_ShippingFee_And_TotalPayment_To_Order.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20250622083145_Add_ShippingFee_And_TotalPayment_To_Order.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250622083145_Add_ShippingFee_And_TotalPayment_To_Order.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20250622083145_Add_ShippingFee_And_TotalPayment_To_Order.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T08:31:45.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20250622075612_TenMigrationMoi.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250622075612_TenMigrationMoi.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20250622075612_TenMigrationMoi.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250622075612_TenMigrationMoi.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20250622075612_TenMigrationMoi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:56:12.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20251122052553_Init.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20251122052553_Init.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20251122052553_Init.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20251122052553_Init.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20251122052553_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T06:55:56.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20250330091716_AddProductImagesTable.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250330091716_AddProductImagesTable.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20250330091716_AddProductImagesTable.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250330091716_AddProductImagesTable.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20250330091716_AddProductImagesTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T09:17:16.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20250330081217_AddSizesAndColorsToProduct.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250330081217_AddSizesAndColorsToProduct.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20250330081217_AddSizesAndColorsToProduct.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250330081217_AddSizesAndColorsToProduct.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20250330081217_AddSizesAndColorsToProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T08:12:17.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20250329173923_UpdateIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250329173923_UpdateIdentity.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20250329173923_UpdateIdentity.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250329173923_UpdateIdentity.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20250329173923_UpdateIdentity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T17:39:23.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20250327184253_InitDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250327184253_InitDatabase.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20250327184253_InitDatabase.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250327184253_InitDatabase.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20250327184253_InitDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:42:53.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAIwJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T16:56:46.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "BanHangWeb\\Controllers\\CheckoutController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAiwJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T17:55:34.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Checkout\\Success.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Checkout\\Success.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Checkout\\Success.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Checkout\\Success.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAcwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T17:57:54.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\CartController.cs",
+              "RelativeToolTip": "BanHangWeb\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAgwFQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:45:23.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CartApiController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\Api\\CartApiController.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Controllers\\Api\\CartApiController.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\Api\\CartApiController.cs",
+              "RelativeToolTip": "BanHangWeb\\Controllers\\Api\\CartApiController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwFkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:02:33.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Services\\CartService.cs",
+              "RelativeToolTip": "BanHangWeb\\Services\\CartService.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwF0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:38:47.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Models\\CartItem.cs",
+              "RelativeToolTip": "BanHangWeb\\Models\\CartItem.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:36:22.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BanHangWeb\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T17:48:34.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "BanHangWeb\\Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T17:42:26.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Oders.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Models\\Oders.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Models\\Oders.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Models\\Oders.cs",
+              "RelativeToolTip": "BanHangWeb\\Models\\Oders.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T17:42:00.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CheckoutApiController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\Api\\CheckoutApiController.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Controllers\\Api\\CheckoutApiController.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\Api\\CheckoutApiController.cs",
+              "RelativeToolTip": "BanHangWeb\\Controllers\\Api\\CheckoutApiController.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAgwJkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T08:13:50.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Models\\Category.cs",
+              "RelativeToolTip": "BanHangWeb\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:07:20.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "20250622073654_SyncSchema.cs",
+              "DocumentMoniker": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\Migrations\\20250622073654_SyncSchema.cs",
+              "ToolTip": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\Migrations\\20250622073654_SyncSchema.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:36:54.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "20250622073825_SyncNewChanges.cs",
+              "DocumentMoniker": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\Migrations\\20250622073825_SyncNewChanges.cs",
+              "ToolTip": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\Migrations\\20250622073825_SyncNewChanges.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:38:25.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20250622074735_SyncSchema.cs",
+              "DocumentMoniker": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\Migrations\\20250622074735_SyncSchema.cs",
+              "ToolTip": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\Migrations\\20250622074735_SyncSchema.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:47:35.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "20250601154627_AddProductQuantity.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250601154627_AddProductQuantity.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20250601154627_AddProductQuantity.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250601154627_AddProductQuantity.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20250601154627_AddProductQuantity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:42:26.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "20250622073037_AddShippingFeeAndTotalPaymentToOrder.cs",
+              "DocumentMoniker": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\Migrations\\20250622073037_AddShippingFeeAndTotalPaymentToOrder.cs",
+              "ToolTip": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\Migrations\\20250622073037_AddShippingFeeAndTotalPaymentToOrder.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:30:37.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "BanHangWeb\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAUwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T16:13:03.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "BanHangWeb\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T12:26:39.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "OrdersApiController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\Api\\OrdersApiController.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Controllers\\Api\\OrdersApiController.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\Api\\OrdersApiController.cs",
+              "RelativeToolTip": "BanHangWeb\\Controllers\\Api\\OrdersApiController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T07:04:06.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "ProductsApiController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\Api\\ProductsApiController.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Controllers\\Api\\ProductsApiController.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\Api\\ProductsApiController.cs",
+              "RelativeToolTip": "BanHangWeb\\Controllers\\Api\\ProductsApiController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T06:47:15.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAUwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T16:21:32.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "BanHangWeb\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T14:16:28.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Orders\\Details.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Orders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Orders\\Details.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Orders\\Details.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAIBJwDEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T16:02:09.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Products\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-30T09:59:06.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Models\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Models\\OrderViewModel.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Models\\OrderViewModel.cs",
+              "RelativeToolTip": "BanHangWeb\\Models\\OrderViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T11:17:19.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "BanHangWeb\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAIBZwCsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:35:32.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\AdminOrders\\Index.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\AdminOrders\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\AdminOrders\\Index.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\AdminOrders\\Index.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwDgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T19:39:28.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\AdminUsers\\Index.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\AdminUsers\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\AdminUsers\\Index.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\AdminUsers\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T16:13:30.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "MyOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Orders\\MyOrders.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Orders\\MyOrders.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Orders\\MyOrders.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Orders\\MyOrders.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAuwDUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T12:29:04.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\AdminOrders\\Details.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\AdminOrders\\Details.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\AdminOrders\\Details.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\AdminOrders\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T19:40:17.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "AdminOrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\AdminOrdersController.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Controllers\\AdminOrdersController.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\AdminOrdersController.cs",
+              "RelativeToolTip": "BanHangWeb\\Controllers\\AdminOrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T19:38:34.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T15:36:36.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Helpers\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Helpers\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Helpers\\SessionExtensions.cs",
+              "RelativeToolTip": "BanHangWeb\\Helpers\\SessionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T10:17:52.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "AdminUsersController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\AdminUsersController.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Controllers\\AdminUsersController.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Controllers\\AdminUsersController.cs",
+              "RelativeToolTip": "BanHangWeb\\Controllers\\AdminUsersController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwBkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T16:12:42.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "20250406112606_AddUserIdToOrders.cs",
+              "DocumentMoniker": "D:\\visual\\BanHangWeb\\BanHangWeb\\Migrations\\20250406112606_AddUserIdToOrders.cs",
+              "ToolTip": "D:\\visual\\BanHangWeb\\BanHangWeb\\Migrations\\20250406112606_AddUserIdToOrders.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T11:26:06.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "20250406104554_AddUserToOrder.cs",
+              "DocumentMoniker": "D:\\visual\\BanHangWeb\\BanHangWeb\\Migrations\\20250406104554_AddUserToOrder.cs",
+              "ToolTip": "D:\\visual\\BanHangWeb\\BanHangWeb\\Migrations\\20250406104554_AddUserToOrder.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T10:45:54.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "20250406104749_AddUserIdToOrder.cs",
+              "DocumentMoniker": "D:\\visual\\BanHangWeb\\BanHangWeb\\Migrations\\20250406104749_AddUserIdToOrder.cs",
+              "ToolTip": "D:\\visual\\BanHangWeb\\BanHangWeb\\Migrations\\20250406104749_AddUserIdToOrder.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T10:47:49.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "20250330094911_UpdateProductDetailImages.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250330094911_UpdateProductDetailImages.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20250330094911_UpdateProductDetailImages.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250330094911_UpdateProductDetailImages.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20250330094911_UpdateProductDetailImages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T09:49:11.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "20250330091307_AddProductImages.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250330091307_AddProductImages.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20250330091307_AddProductImages.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250330091307_AddProductImages.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20250330091307_AddProductImages.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T09:13:07.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T16:14:36.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "20250329184336_AddProductDescription.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250329184336_AddProductDescription.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20250329184336_AddProductDescription.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250329184336_AddProductDescription.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20250329184336_AddProductDescription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T18:43:36.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-25T16:14:05.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "20250327184055_a.cs",
+              "DocumentMoniker": "D:\\visual\\BanHangWeb\\BanHangWeb\\Migrations\\20250327184055_a.cs",
+              "ToolTip": "D:\\visual\\BanHangWeb\\BanHangWeb\\Migrations\\20250327184055_a.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:40:56.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "20250327184256_AddCategoriesTable.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250327184256_AddCategoriesTable.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20250327184256_AddCategoriesTable.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250327184256_AddCategoriesTable.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20250327184256_AddCategoriesTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:42:56.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "20250327184258_AddOrdersTable.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250327184258_AddOrdersTable.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20250327184258_AddOrdersTable.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250327184258_AddOrdersTable.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20250327184258_AddOrdersTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:42:58.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "20250327184301_AddOrderDetailsTable.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250327184301_AddOrderDetailsTable.cs",
+              "RelativeDocumentMoniker": "BanHangWeb\\Migrations\\20250327184301_AddOrderDetailsTable.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Migrations\\20250327184301_AddOrderDetailsTable.cs",
+              "RelativeToolTip": "BanHangWeb\\Migrations\\20250327184301_AddOrderDetailsTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:43:01.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T19:18:54.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "20250327183947_InitNoIdentity.cs",
+              "DocumentMoniker": "D:\\visual\\BanHangWeb\\BanHangWeb\\Migrations\\20250327183947_InitNoIdentity.cs",
+              "ToolTip": "D:\\visual\\BanHangWeb\\BanHangWeb\\Migrations\\20250327183947_InitNoIdentity.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:39:48.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Categories\\Delete.cshtml",
+              "RelativeDocumentMoniker": "BanHangWeb\\Views\\Categories\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Chuyen nganh\\SportShop\\SportShop\\BanHangWeb\\BanHangWeb\\Views\\Categories\\Delete.cshtml",
+              "RelativeToolTip": "BanHangWeb\\Views\\Categories\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T19:19:12.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "20250327175720_UpdateDatabase.cs",
+              "DocumentMoniker": "D:\\visual\\BanHangWeb\\BanHangWeb\\Migrations\\20250327175720_UpdateDatabase.cs",
+              "ToolTip": "D:\\visual\\BanHangWeb\\BanHangWeb\\Migrations\\20250327175720_UpdateDatabase.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:57:20.177Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

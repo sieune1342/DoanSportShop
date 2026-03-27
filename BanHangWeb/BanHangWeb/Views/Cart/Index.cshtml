@@ -1,0 +1,145 @@
+﻿@model List<BanHangWeb.Models.CartItem>
+@{
+    ViewData["Title"] = "Giỏ hàng";
+    var total = ViewBag.TotalPrice ?? 0;
+}
+
+<h2 class="text-center text-gradient fw-bold my-4">🛒 Giỏ hàng của bạn</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info text-center">
+        🛍 Giỏ hàng của bạn đang trống. <a asp-controller="Products" asp-action="Index" class="fw-bold text-decoration-underline">Tiếp tục mua sắm</a> 💖
+    </div>
+}
+else
+{
+    <div class="shadow rounded-4 p-3 mb-4 bg-white">
+        <!-- 🧾 Danh sách sản phẩm -->
+        <div class="table-responsive">
+            <table class="table table-hover align-middle">
+                <thead class="text-white" style="background: linear-gradient(to right, #00b4db, #0083b0);">
+                    <tr class="text-center">
+                        <th>Ảnh</th>
+                        <th>Sản phẩm</th>
+                        <th>Size</th>
+                        <th>Giá</th>
+                        <th>Số lượng</th>
+                        <th>Thành tiền</th>
+                        <th>Hành động</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="text-center" data-product-id="@item.ProductId" data-size="@item.Size">
+                            <td><img src="@item.ImageUrl" class="img-thumbnail" style="width: 60px;" /></td>
+                            <td class="fw-semibold">@item.ProductName</td>
+                            <td>@item.Size</td>
+                            <td class="text-success fw-bold">@item.Price.ToString("#,##0") VNĐ</td>
+                            <td>
+                                <input type="number" value="@item.Quantity" min="1" class="form-control quantity-input text-center"
+                                       data-product-id="@item.ProductId" data-size="@item.Size" />
+                            </td>
+                            <td class="item-subtotal fw-bold text-danger">
+                                @((item.Price * item.Quantity).ToString("#,##0")) VNĐ
+                            </td>
+                            <td>
+                                <button class="btn btn-sm btn-outline-danger btn-remove rounded-pill"
+                                        data-product-id="@item.ProductId" data-size="@item.Size">
+                                    ❌ Xóa
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Tổng đơn hàng -->
+        <div class="text-end mt-3">
+            <h5 class="fw-bold">💰 Tổng cộng: <span class="text-success">@((total as decimal?).Value.ToString("#,##0")) VNĐ</span></h5>
+        </div>
+
+        <!-- Hành động -->
+        <div class="d-flex justify-content-between flex-wrap gap-2 mt-4">
+            <a asp-controller="Products" asp-action="Index" class="btn btn-outline-secondary rounded-pill">⬅ Tiếp tục mua</a>
+            <button id="clearCart" class="btn btn-outline-danger rounded-pill">🗑 Xóa toàn bộ</button>
+        </div>
+
+        <!-- Nút thanh toán -->
+        <div class="text-center mt-4">
+            <a asp-controller="Checkout" asp-action="Index" class="btn btn-gradient-success btn-lg px-5 rounded-pill">
+                💳 Thanh toán
+            </a>
+        </div>
+    </div>
+}
+
+<style>
+    .btn-gradient-success {
+        background: linear-gradient(45deg, #00c853, #b2ff59);
+        color: #fff;
+        border: none;
+    }
+
+        .btn-gradient-success:hover {
+            opacity: 0.95;
+        }
+
+    .text-gradient {
+        background: linear-gradient(to right, #00b4db, #0083b0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .quantity-input {
+        width: 70px;
+    }
+</style>
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll(".quantity-input").forEach(input => {
+                input.addEventListener("change", function () {
+                    const productId = this.dataset.productId;
+                    const size = this.dataset.size;
+                    let quantity = parseInt(this.value);
+                    if (quantity < 1) quantity = 1;
+                    this.value = quantity;
+
+                    fetch("/Cart/UpdateCart", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                        body: `productId=${productId}&size=${size}&quantity=${quantity}`
+                    })
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.success) location.reload();
+                    });
+                });
+            });
+
+            document.querySelectorAll(".btn-remove").forEach(btn => {
+                btn.addEventListener("click", function () {
+                    const productId = this.dataset.productId;
+                    const size = this.dataset.size;
+
+                    fetch("/Cart/RemoveFromCart", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                        body: `productId=${productId}&size=${size}`
+                    }).then(res => res.json())
+                      .then(data => { if (data.success) location.reload(); });
+                });
+            });
+
+            document.getElementById("clearCart")?.addEventListener("click", function () {
+                fetch("/Cart/ClearCart", { method: "POST" })
+                    .then(res => res.json())
+                    .then(data => { if (data.success) location.reload(); });
+            });
+        });
+    </script>
+}

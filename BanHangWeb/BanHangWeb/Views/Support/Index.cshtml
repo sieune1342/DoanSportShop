@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Hỗ trợ trực tuyến";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3">Hỗ trợ khách hàng</h2>
+
+    <div class="row">
+        <!-- CỘT CHAT (nằm giữa) -->
+        <div class="col-md-5 mb-3 mx-auto">
+            <h5>Chat với nhân viên</h5>
+
+            <!-- Khung hiển thị tin nhắn -->
+            <div id="messages"
+                 class="border rounded p-2 mb-2"
+                 style="height:260px; overflow-y:auto; background-color:#f8f9fa;">
+            </div>
+
+            <!-- Ô nhập + GỬI ẢNH + GỬI TEXT -->
+            <div class="input-group">
+                <!-- Nút chọn ảnh -->
+                <button id="btnSendImage"
+                        type="button"
+                        class="btn btn-outline-secondary">
+                    <i class="bi bi-image"></i>
+                </button>
+
+                <!-- Ô nhập nội dung -->
+                <input id="messageInput"
+                       class="form-control"
+                       placeholder="Nhập nội dung..." />
+
+                <!-- Nút gửi text -->
+                <button id="sendButton" class="btn btn-primary">
+                    Gửi
+                </button>
+            </div>
+
+            <!-- input file ẩn để chọn ảnh -->
+            <input type="file"
+                   id="imageInput"
+                   accept="image/*"
+                   class="d-none" />
+
+            <!-- NÚT MỞ TRANG VIDEO CALL RIÊNG -->
+            <div class="mt-3">
+                <!-- target="_top": mở full tab (thoát iframe widget) -->
+                <a asp-controller="Support"
+                   asp-action="Video"
+                   target="_top"
+                   class="btn btn-outline-success w-100">
+                    <i class="bi bi-camera-video"></i> Gọi video với nhân viên
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <!-- SignalR JS từ CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+
+    <script>
+        // Cho support.js biết đây là KHÁCH
+        window.SUPPORT_ROLE = "customer";
+        window.CURRENT_USER_NAME = "@(User.Identity?.Name ?? "Khách")";
+    </script>
+
+    <script src="~/js/support.js" asp-append-version="true"></script>
+}

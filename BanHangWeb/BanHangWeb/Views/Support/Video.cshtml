@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Video Call hỗ trợ";
+}
+
+<div class="container py-4">
+    <h2 class="mb-3">Video call với nhân viên hỗ trợ</h2>
+
+    <div class="row">
+        <div class="col-md-6 mb-3">
+            <span class="small text-muted d-block mb-1">Bạn</span>
+            <video id="localVideo"
+                   autoplay
+                   playsinline
+                   class="w-100 border rounded bg-dark"
+                   style="min-height: 220px;">
+            </video>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <span class="small text-muted d-block mb-1">Nhân viên hỗ trợ</span>
+            <video id="remoteVideo"
+                   autoplay
+                   playsinline
+                   class="w-100 border rounded bg-dark"
+                   style="min-height: 220px;">
+            </video>
+        </div>
+    </div>
+
+    <div class="mt-3">
+        <button id="startCallBtn" class="btn btn-success me-2">
+            <i class="bi bi-camera-video"></i> Bắt đầu gọi
+        </button>
+
+        <button id="hangupBtn" class="btn btn-danger">
+            <i class="bi bi-telephone-x"></i> Kết thúc
+        </button>
+
+        <!-- Quay lại TRANG CHỦ + set cờ mở lại widget chat -->
+        <a asp-controller="Home"
+           asp-action="Index"
+           class="btn btn-outline-secondary ms-2"
+           onclick="localStorage.setItem('openSupport', '1');">
+            ⬅ Quay lại chat
+        </a>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+    <script>
+        window.SUPPORT_ROLE = "customer";
+        window.CURRENT_USER_NAME = "@(User.Identity?.Name ?? "Khách")";
+    </script>
+    <script src="~/js/support.js" asp-append-version="true"></script>
+}

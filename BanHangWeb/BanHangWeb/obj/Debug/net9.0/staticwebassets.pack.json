@@ -1,0 +1,737 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BanHangWeb.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BanHangWeb.k04cuw5tuq.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\04b57296-4333-4f9f-b343-3949f88a3281_áo3.jpg",
+      "PackagePath": "staticwebassets\\images\\04b57296-4333-4f9f-b343-3949f88a3281_áo3.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\04b5c656-7ba3-4f91-8fc0-b74ac6c092fd_vaynu.webp",
+      "PackagePath": "staticwebassets\\images\\04b5c656-7ba3-4f91-8fc0-b74ac6c092fd_vaynu.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\05aafc33-730c-4582-88c3-aeebfc2e537b_OIP.jpg",
+      "PackagePath": "staticwebassets\\images\\05aafc33-730c-4582-88c3-aeebfc2e537b_OIP.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\06f331a0-bf4b-4846-97ff-0d4837f8c9e0_tải xuống (1).jpg",
+      "PackagePath": "staticwebassets\\images\\06f331a0-bf4b-4846-97ff-0d4837f8c9e0_tải xuống (1).jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\07220865-7155-4658-910e-9c13fe25f456_11111.jpg",
+      "PackagePath": "staticwebassets\\images\\07220865-7155-4658-910e-9c13fe25f456_11111.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\073c9a42-524a-46c1-a2a9-0b0e9a95a565_ao1.jpg",
+      "PackagePath": "staticwebassets\\images\\073c9a42-524a-46c1-a2a9-0b0e9a95a565_ao1.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\0a92e304-9f6b-41a4-9dcd-30941dbf1410_download.jpg",
+      "PackagePath": "staticwebassets\\images\\0a92e304-9f6b-41a4-9dcd-30941dbf1410_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\0bf25f36-a70d-40d2-9f84-a0bb62bb5295_treemchitiet.webp",
+      "PackagePath": "staticwebassets\\images\\0bf25f36-a70d-40d2-9f84-a0bb62bb5295_treemchitiet.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\0f8b7314-53c9-4770-9392-504fb9bdf306_11111.jpg",
+      "PackagePath": "staticwebassets\\images\\0f8b7314-53c9-4770-9392-504fb9bdf306_11111.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\127bf4f0-089b-4073-982d-1d030cb39c2d_vot.webp",
+      "PackagePath": "staticwebassets\\images\\127bf4f0-089b-4073-982d-1d030cb39c2d_vot.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\15d42cc2-0f9e-4a3c-b135-53d7e828353e_download.jpg",
+      "PackagePath": "staticwebassets\\images\\15d42cc2-0f9e-4a3c-b135-53d7e828353e_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\16cccd92-77c0-436d-8046-d643b13a3180_ao1.jpg",
+      "PackagePath": "staticwebassets\\images\\16cccd92-77c0-436d-8046-d643b13a3180_ao1.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\1aad6cd3-199b-43f3-8153-d7e8abad9903_ao2.jpg",
+      "PackagePath": "staticwebassets\\images\\1aad6cd3-199b-43f3-8153-d7e8abad9903_ao2.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\1ee0f2ea-47f5-492c-9f1e-7623cd744c2a_11111.jpg",
+      "PackagePath": "staticwebassets\\images\\1ee0f2ea-47f5-492c-9f1e-7623cd744c2a_11111.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\25c45409-5f12-4e47-b51a-629ee8153a93_ao1.jpg",
+      "PackagePath": "staticwebassets\\images\\25c45409-5f12-4e47-b51a-629ee8153a93_ao1.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\26dbdfbe-3151-4574-9bac-68e42d5c781c_tải xuống (1).jpg",
+      "PackagePath": "staticwebassets\\images\\26dbdfbe-3151-4574-9bac-68e42d5c781c_tải xuống (1).jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\2930ec19-52ab-4195-94d5-551ccaf9fa6e_nonchitiett.webp",
+      "PackagePath": "staticwebassets\\images\\2930ec19-52ab-4195-94d5-551ccaf9fa6e_nonchitiett.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\299cdd6c-09fe-47cd-9131-7b081a244ad0_damnuchitiet.webp",
+      "PackagePath": "staticwebassets\\images\\299cdd6c-09fe-47cd-9131-7b081a244ad0_damnuchitiet.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\29fc0aec-bbe1-43ff-b08d-34b5e645b71b_non.webp",
+      "PackagePath": "staticwebassets\\images\\29fc0aec-bbe1-43ff-b08d-34b5e645b71b_non.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\2ae47690-7343-4395-aa15-3e2d6ac93253_download.jpg",
+      "PackagePath": "staticwebassets\\images\\2ae47690-7343-4395-aa15-3e2d6ac93253_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\30b24652-f19e-457e-a779-a35eb377cc24_11111.jpg",
+      "PackagePath": "staticwebassets\\images\\30b24652-f19e-457e-a779-a35eb377cc24_11111.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\3186d09d-4a95-4806-82c6-5f1bdf3ad9d9_nonn.webp",
+      "PackagePath": "staticwebassets\\images\\3186d09d-4a95-4806-82c6-5f1bdf3ad9d9_nonn.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\34c82464-c995-45f5-a7f8-d6b624d75272_11111.jpg",
+      "PackagePath": "staticwebassets\\images\\34c82464-c995-45f5-a7f8-d6b624d75272_11111.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\3811c6d2-28d1-4290-b469-11d3daddd76a_download.jpg",
+      "PackagePath": "staticwebassets\\images\\3811c6d2-28d1-4290-b469-11d3daddd76a_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\39390498-1014-4c3e-bfac-7a7e2b3851ba_OIP.jpg",
+      "PackagePath": "staticwebassets\\images\\39390498-1014-4c3e-bfac-7a7e2b3851ba_OIP.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\39852563-c7a0-497e-b858-bcece25eb97a_OIP.jpg",
+      "PackagePath": "staticwebassets\\images\\39852563-c7a0-497e-b858-bcece25eb97a_OIP.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\3a610fa4-d8d9-45ad-abb6-e99d54901fcd_OIP.jpg",
+      "PackagePath": "staticwebassets\\images\\3a610fa4-d8d9-45ad-abb6-e99d54901fcd_OIP.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\3b84f2a1-bd35-42e6-8298-72714e072702_áo3.jpg",
+      "PackagePath": "staticwebassets\\images\\3b84f2a1-bd35-42e6-8298-72714e072702_áo3.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\3ef5646e-4729-405e-9f76-fd1cb196ae8f_ao2.jpg",
+      "PackagePath": "staticwebassets\\images\\3ef5646e-4729-405e-9f76-fd1cb196ae8f_ao2.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\3f2a8e71-bce1-493f-98a2-96492209fef3_anime-digital-art-artwork-2d-kimetsu-no-yaiba-hd-wallpaper-preview.jpg",
+      "PackagePath": "staticwebassets\\images\\3f2a8e71-bce1-493f-98a2-96492209fef3_anime-digital-art-artwork-2d-kimetsu-no-yaiba-hd-wallpaper-preview.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\3fb1997c-bad3-4373-a87d-4ed9eed238ad_11111.jpg",
+      "PackagePath": "staticwebassets\\images\\3fb1997c-bad3-4373-a87d-4ed9eed238ad_11111.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\4089acab-f4d4-4c4d-9e58-b5ba56f9c943_anime-digital-art-artwork-2d-kimetsu-no-yaiba-hd-wallpaper-preview.jpg",
+      "PackagePath": "staticwebassets\\images\\4089acab-f4d4-4c4d-9e58-b5ba56f9c943_anime-digital-art-artwork-2d-kimetsu-no-yaiba-hd-wallpaper-preview.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\4bb9a9ec-b057-4bea-afdb-e49a0258e395_ao1.jpg",
+      "PackagePath": "staticwebassets\\images\\4bb9a9ec-b057-4bea-afdb-e49a0258e395_ao1.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\4de8ab35-4eb9-4c47-9682-3f2e2253060b_11111.jpg",
+      "PackagePath": "staticwebassets\\images\\4de8ab35-4eb9-4c47-9682-3f2e2253060b_11111.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\515c1506-c639-4c5e-9439-4cac9dee37f8_download.jpg",
+      "PackagePath": "staticwebassets\\images\\515c1506-c639-4c5e-9439-4cac9dee37f8_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\5667566f-eda2-4751-9a54-2df43a94f085_tải xuống (1).jpg",
+      "PackagePath": "staticwebassets\\images\\5667566f-eda2-4751-9a54-2df43a94f085_tải xuống (1).jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\56afccb7-6420-4279-baa8-e91268d811cd_download.jpg",
+      "PackagePath": "staticwebassets\\images\\56afccb7-6420-4279-baa8-e91268d811cd_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\598cbd2e-2d7e-44c7-acad-0067058452e8_damnu.webp",
+      "PackagePath": "staticwebassets\\images\\598cbd2e-2d7e-44c7-acad-0067058452e8_damnu.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\5af1c7d6-dab0-4b58-9119-c290ea75b25e_OIP.jpg",
+      "PackagePath": "staticwebassets\\images\\5af1c7d6-dab0-4b58-9119-c290ea75b25e_OIP.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\5c5443a1-01f5-4104-b9a9-ffb9a20b0f61_sanphamkhac.webp",
+      "PackagePath": "staticwebassets\\images\\5c5443a1-01f5-4104-b9a9-ffb9a20b0f61_sanphamkhac.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\5d644d0c-fb6d-4d51-a74e-51e8c16910f0_OIP.jpg",
+      "PackagePath": "staticwebassets\\images\\5d644d0c-fb6d-4d51-a74e-51e8c16910f0_OIP.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\606fddf2-42dc-431e-9034-6d93287b0b82_treem.webp",
+      "PackagePath": "staticwebassets\\images\\606fddf2-42dc-431e-9034-6d93287b0b82_treem.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\613f6a81-1ebb-4098-b14f-df90862e36ae_download.jpg",
+      "PackagePath": "staticwebassets\\images\\613f6a81-1ebb-4098-b14f-df90862e36ae_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\62cfa958-7a3a-48d5-8c75-9e31d8a6e0b4_áo3.jpg",
+      "PackagePath": "staticwebassets\\images\\62cfa958-7a3a-48d5-8c75-9e31d8a6e0b4_áo3.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\66a6b10d-034a-47ff-be49-87bd63495306_aonamchitiet.webp",
+      "PackagePath": "staticwebassets\\images\\66a6b10d-034a-47ff-be49-87bd63495306_aonamchitiet.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\671e2352-41af-4827-b2cf-57021abaa4bc_aonam.webp",
+      "PackagePath": "staticwebassets\\images\\671e2352-41af-4827-b2cf-57021abaa4bc_aonam.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\67d52864-2c50-4c28-8dfe-8fb86103cc73_download.jpg",
+      "PackagePath": "staticwebassets\\images\\67d52864-2c50-4c28-8dfe-8fb86103cc73_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\6aacb7d5-4381-4bcd-8b91-75c1257014d2_download.jpg",
+      "PackagePath": "staticwebassets\\images\\6aacb7d5-4381-4bcd-8b91-75c1257014d2_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\6b5aa90f-3ad0-4d87-892a-c37b71f808b7_aotreemchitiet.webp",
+      "PackagePath": "staticwebassets\\images\\6b5aa90f-3ad0-4d87-892a-c37b71f808b7_aotreemchitiet.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\70394aa2-f77e-43be-8408-c046d0384c8d_download.jpg",
+      "PackagePath": "staticwebassets\\images\\70394aa2-f77e-43be-8408-c046d0384c8d_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\727a857d-6453-4e2a-8ef9-5b1b67d61576_OIP.jpg",
+      "PackagePath": "staticwebassets\\images\\727a857d-6453-4e2a-8ef9-5b1b67d61576_OIP.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\72a42953-4e1e-4d1e-ad9c-f4b29647fb40_ao2.jpg",
+      "PackagePath": "staticwebassets\\images\\72a42953-4e1e-4d1e-ad9c-f4b29647fb40_ao2.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\74627827-8467-4e02-8877-54ab277cadc0_treemchitiet.webp",
+      "PackagePath": "staticwebassets\\images\\74627827-8467-4e02-8877-54ab277cadc0_treemchitiet.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\756162a2-a065-4858-9ca3-b3cb9117bf49_ao1.jpg",
+      "PackagePath": "staticwebassets\\images\\756162a2-a065-4858-9ca3-b3cb9117bf49_ao1.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\75a6a004-fec7-40bf-9912-9c8e0f24223b_áo3.jpg",
+      "PackagePath": "staticwebassets\\images\\75a6a004-fec7-40bf-9912-9c8e0f24223b_áo3.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\797b1caf-92cd-46b6-b376-93d7231b8bc9_sanphamkhacchitiet.webp",
+      "PackagePath": "staticwebassets\\images\\797b1caf-92cd-46b6-b376-93d7231b8bc9_sanphamkhacchitiet.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\7a26d314-deeb-45bf-bca0-c0e3e456a08d_aotreem.webp",
+      "PackagePath": "staticwebassets\\images\\7a26d314-deeb-45bf-bca0-c0e3e456a08d_aotreem.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\7d1c8b3c-e3e9-442d-aec1-0e98e5670f45_nonchitiet.webp",
+      "PackagePath": "staticwebassets\\images\\7d1c8b3c-e3e9-442d-aec1-0e98e5670f45_nonchitiet.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\7d344b6f-a71e-4d4e-9274-7428ab41e08e_download.jpg",
+      "PackagePath": "staticwebassets\\images\\7d344b6f-a71e-4d4e-9274-7428ab41e08e_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\7d3d6ab1-233b-4926-a71b-3e3587474116_download.jpg",
+      "PackagePath": "staticwebassets\\images\\7d3d6ab1-233b-4926-a71b-3e3587474116_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\7ef43a73-6fe8-4fb6-9762-e8e28aeee8ed_nonchitiett.webp",
+      "PackagePath": "staticwebassets\\images\\7ef43a73-6fe8-4fb6-9762-e8e28aeee8ed_nonchitiett.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\7f13ca18-72f8-4a4e-aff3-007f4a33a4e3_OIP.jpg",
+      "PackagePath": "staticwebassets\\images\\7f13ca18-72f8-4a4e-aff3-007f4a33a4e3_OIP.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\7f8395ed-fca7-4784-86d7-e4739db5e4d5_ao1.jpg",
+      "PackagePath": "staticwebassets\\images\\7f8395ed-fca7-4784-86d7-e4739db5e4d5_ao1.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\81892ea1-1d02-4723-831f-0fa616d2a788_vaynu.webp",
+      "PackagePath": "staticwebassets\\images\\81892ea1-1d02-4723-831f-0fa616d2a788_vaynu.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\8289cfe0-8771-417a-9a03-f12635523613_votchitiet.webp",
+      "PackagePath": "staticwebassets\\images\\8289cfe0-8771-417a-9a03-f12635523613_votchitiet.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\83384065-9fe5-4fae-bd22-fbfaa9c0acd9_tải xuống (1).jpg",
+      "PackagePath": "staticwebassets\\images\\83384065-9fe5-4fae-bd22-fbfaa9c0acd9_tải xuống (1).jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\8355a9c1-59ab-4797-8815-0b0bd6c0b725_treemchitiet.webp",
+      "PackagePath": "staticwebassets\\images\\8355a9c1-59ab-4797-8815-0b0bd6c0b725_treemchitiet.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\849fe2f0-2894-4f80-aca9-c67dcffc87aa_download.jpg",
+      "PackagePath": "staticwebassets\\images\\849fe2f0-2894-4f80-aca9-c67dcffc87aa_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\86685e37-cae5-40e6-8e1f-cc0e2fdcdb17_download.jpg",
+      "PackagePath": "staticwebassets\\images\\86685e37-cae5-40e6-8e1f-cc0e2fdcdb17_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\89d2fb02-4531-40a5-9210-02ca1def3898_11111.jpg",
+      "PackagePath": "staticwebassets\\images\\89d2fb02-4531-40a5-9210-02ca1def3898_11111.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\8e67092a-b330-48ab-8ec3-1b5074ba1adb_ao1.jpg",
+      "PackagePath": "staticwebassets\\images\\8e67092a-b330-48ab-8ec3-1b5074ba1adb_ao1.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\8f3f6fdc-2015-4c98-9ddd-c38ca79dd6b3_download.jpg",
+      "PackagePath": "staticwebassets\\images\\8f3f6fdc-2015-4c98-9ddd-c38ca79dd6b3_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\8fcd6b4d-0d70-4c5a-82e2-ddf730b5fdbe_ao1.jpg",
+      "PackagePath": "staticwebassets\\images\\8fcd6b4d-0d70-4c5a-82e2-ddf730b5fdbe_ao1.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\958f4b55-2bfd-4a4d-a757-8bd1bedadb91_áo3.jpg",
+      "PackagePath": "staticwebassets\\images\\958f4b55-2bfd-4a4d-a757-8bd1bedadb91_áo3.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\97bb89a0-09bc-4909-9a08-b31fb249e409_treem.webp",
+      "PackagePath": "staticwebassets\\images\\97bb89a0-09bc-4909-9a08-b31fb249e409_treem.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\9c6e17bc-8720-47ad-8846-665ebfe3147e_sanphamkhac.webp",
+      "PackagePath": "staticwebassets\\images\\9c6e17bc-8720-47ad-8846-665ebfe3147e_sanphamkhac.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\9deaaafa-2d7e-49e0-9a17-088dec03636f_anime-demon-slayer-kimetsu-no-yaiba-zenitsu-agatsuma-hd-wallpaper-preview.jpg",
+      "PackagePath": "staticwebassets\\images\\9deaaafa-2d7e-49e0-9a17-088dec03636f_anime-demon-slayer-kimetsu-no-yaiba-zenitsu-agatsuma-hd-wallpaper-preview.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\a16a5485-3875-48fe-be2b-8313a4f703e6_download.jpg",
+      "PackagePath": "staticwebassets\\images\\a16a5485-3875-48fe-be2b-8313a4f703e6_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\a56af013-5ba2-4d7b-877a-be46efa15530_vaynuchitiet.webp",
+      "PackagePath": "staticwebassets\\images\\a56af013-5ba2-4d7b-877a-be46efa15530_vaynuchitiet.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\b1df8ac0-28e6-4abf-95ea-1e119d6a095c_ao2.jpg",
+      "PackagePath": "staticwebassets\\images\\b1df8ac0-28e6-4abf-95ea-1e119d6a095c_ao2.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\b726a049-c64b-4533-8e51-ccb71fe0f7d0_ao1.jpg",
+      "PackagePath": "staticwebassets\\images\\b726a049-c64b-4533-8e51-ccb71fe0f7d0_ao1.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\b7b8cee9-cce3-43e6-88ec-48ac68c3a854_OIP.jpg",
+      "PackagePath": "staticwebassets\\images\\b7b8cee9-cce3-43e6-88ec-48ac68c3a854_OIP.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\b7bb7b91-ef76-42bf-af88-13fdfe744f91_download.jpg",
+      "PackagePath": "staticwebassets\\images\\b7bb7b91-ef76-42bf-af88-13fdfe744f91_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\b83b204d-c290-4b59-b352-7e1529860a4b_áo3.jpg",
+      "PackagePath": "staticwebassets\\images\\b83b204d-c290-4b59-b352-7e1529860a4b_áo3.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\b85c3103-b229-45b8-88be-a58d2db5328e_download.jpg",
+      "PackagePath": "staticwebassets\\images\\b85c3103-b229-45b8-88be-a58d2db5328e_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\be303ba7-633c-4477-9e1b-ad6a222c85cf_ao2.jpg",
+      "PackagePath": "staticwebassets\\images\\be303ba7-633c-4477-9e1b-ad6a222c85cf_ao2.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\c0611e84-1b87-4f61-90f6-9e93d5ba16c6_quannam.webp",
+      "PackagePath": "staticwebassets\\images\\c0611e84-1b87-4f61-90f6-9e93d5ba16c6_quannam.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\c53f022c-83ba-42e0-9e8c-1fff6618d459_treemchitiet.webp",
+      "PackagePath": "staticwebassets\\images\\c53f022c-83ba-42e0-9e8c-1fff6618d459_treemchitiet.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\c7732412-6baa-4a08-a9ea-937850bc8825_download.jpg",
+      "PackagePath": "staticwebassets\\images\\c7732412-6baa-4a08-a9ea-937850bc8825_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\cad5b1ac-47bd-4dec-8d3f-9163efad7f41_11111.jpg",
+      "PackagePath": "staticwebassets\\images\\cad5b1ac-47bd-4dec-8d3f-9163efad7f41_11111.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\d4f7ccb2-9861-4124-95ad-00cb5c0ef101_ao2.jpg",
+      "PackagePath": "staticwebassets\\images\\d4f7ccb2-9861-4124-95ad-00cb5c0ef101_ao2.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\d8e21147-1de3-4d19-952b-d781fd777973_OIP.jpg",
+      "PackagePath": "staticwebassets\\images\\d8e21147-1de3-4d19-952b-d781fd777973_OIP.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\db41fa06-4296-4768-a4d8-81fb7cd58188_quannamchitiet.webp",
+      "PackagePath": "staticwebassets\\images\\db41fa06-4296-4768-a4d8-81fb7cd58188_quannamchitiet.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\dc57188d-012f-47dd-bad1-fb47e53511b6_áo3.jpg",
+      "PackagePath": "staticwebassets\\images\\dc57188d-012f-47dd-bad1-fb47e53511b6_áo3.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\df190aef-172a-4449-96b6-bcffed0feb2c_ao1.jpg",
+      "PackagePath": "staticwebassets\\images\\df190aef-172a-4449-96b6-bcffed0feb2c_ao1.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\e155c64d-ec9a-48a4-986d-197050e51b26_non.webp",
+      "PackagePath": "staticwebassets\\images\\e155c64d-ec9a-48a4-986d-197050e51b26_non.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\e30d3f6a-363d-41bf-9eaa-9e7a66db7c9b_11111.jpg",
+      "PackagePath": "staticwebassets\\images\\e30d3f6a-363d-41bf-9eaa-9e7a66db7c9b_11111.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\e46ac593-ec6f-4b3c-8c92-a89bfcc967af_download.jpg",
+      "PackagePath": "staticwebassets\\images\\e46ac593-ec6f-4b3c-8c92-a89bfcc967af_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\e5210f40-542c-44b5-b08d-4c23e0614707_damnu.webp",
+      "PackagePath": "staticwebassets\\images\\e5210f40-542c-44b5-b08d-4c23e0614707_damnu.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\e71b3873-8da3-4c70-893d-77d61ac0e659_11111.jpg",
+      "PackagePath": "staticwebassets\\images\\e71b3873-8da3-4c70-893d-77d61ac0e659_11111.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\eaa85c01-454a-4188-97cf-3bada870af44_download.jpg",
+      "PackagePath": "staticwebassets\\images\\eaa85c01-454a-4188-97cf-3bada870af44_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\eaf94f34-e33e-4b81-b999-e1fd3364f639_11111.jpg",
+      "PackagePath": "staticwebassets\\images\\eaf94f34-e33e-4b81-b999-e1fd3364f639_11111.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\ee78de25-b8c4-433a-a164-92dc2804f225_áo3.jpg",
+      "PackagePath": "staticwebassets\\images\\ee78de25-b8c4-433a-a164-92dc2804f225_áo3.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\eea11f46-e06b-42a3-b322-b7c1f2c8ea85_11111.jpg",
+      "PackagePath": "staticwebassets\\images\\eea11f46-e06b-42a3-b322-b7c1f2c8ea85_11111.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\efdeebde-f3d7-436c-832e-6ce6b518a31c_vaynuchitiet.webp",
+      "PackagePath": "staticwebassets\\images\\efdeebde-f3d7-436c-832e-6ce6b518a31c_vaynuchitiet.webp"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\f049849b-82ce-45fc-874c-5db7191c4be8_tải xuống (1).jpg",
+      "PackagePath": "staticwebassets\\images\\f049849b-82ce-45fc-874c-5db7191c4be8_tải xuống (1).jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\f208490f-f0a1-41ed-a71d-d4814759ab1c_anime-digital-art-artwork-2d-kimetsu-no-yaiba-hd-wallpaper-preview.jpg",
+      "PackagePath": "staticwebassets\\images\\f208490f-f0a1-41ed-a71d-d4814759ab1c_anime-digital-art-artwork-2d-kimetsu-no-yaiba-hd-wallpaper-preview.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\f95de5b7-712e-4ab8-9fc7-e8cf86c17d4d_OIP.jpg",
+      "PackagePath": "staticwebassets\\images\\f95de5b7-712e-4ab8-9fc7-e8cf86c17d4d_OIP.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\f9e8bdaa-3c5d-4b5f-898f-16ee56d6d491_áo3.jpg",
+      "PackagePath": "staticwebassets\\images\\f9e8bdaa-3c5d-4b5f-898f-16ee56d6d491_áo3.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\fa34f1a7-ab5e-4835-873f-b6c3da15dd62_ao2.jpg",
+      "PackagePath": "staticwebassets\\images\\fa34f1a7-ab5e-4835-873f-b6c3da15dd62_ao2.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\fb0819f1-0aca-498e-a18e-a1bd34622bc4_ao2.jpg",
+      "PackagePath": "staticwebassets\\images\\fb0819f1-0aca-498e-a18e-a1bd34622bc4_ao2.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\fc5e0bf6-83e6-438d-8665-3a2331fc5055_ao2.jpg",
+      "PackagePath": "staticwebassets\\images\\fc5e0bf6-83e6-438d-8665-3a2331fc5055_ao2.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\fd782a60-fc52-425a-acfe-34268d6d97c1_download.jpg",
+      "PackagePath": "staticwebassets\\images\\fd782a60-fc52-425a-acfe-34268d6d97c1_download.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\images\\fe939777-60d1-4eac-b47a-9e71d5f9ae03_OIP.jpg",
+      "PackagePath": "staticwebassets\\images\\fe939777-60d1-4eac-b47a-9e71d5f9ae03_OIP.jpg"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "D:\\visual\\NHOM_TAMGIACVANG\\BanHangWeb\\BanHangWeb\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.BanHangWeb.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.BanHangWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.BanHangWeb.props",
+      "PackagePath": "build\\BanHangWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.BanHangWeb.props",
+      "PackagePath": "buildMultiTargeting\\BanHangWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.BanHangWeb.props",
+      "PackagePath": "buildTransitive\\BanHangWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

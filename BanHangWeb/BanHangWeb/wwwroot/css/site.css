@@ -1,0 +1,110 @@
+﻿/* =============== WIDGET HỖ TRỢ =============== */
+
+/* Nút “Hỗ trợ” màu xanh bên trái */
+#support-widget {
+    position: fixed;
+    left: 20px;
+    bottom: 90px; /* gần nút số điện thoại */
+    z-index: 9999;
+}
+
+.support-main-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 999px;
+    border: none;
+    padding: 8px 18px;
+    background: #00a2ff;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+    .support-main-btn:hover {
+        opacity: 0.9;
+    }
+
+.support-main-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00a2ff;
+    font-size: 18px;
+}
+
+.support-main-text {
+    white-space: nowrap;
+}
+
+/* Panel chat bên phải – trượt từ phải vào */
+.support-panel {
+    position: fixed;
+    top: 70px; /* dưới navbar một chút */
+    right: 0;
+    width: 420px;
+    height: calc(100vh - 80px); /* gần full chiều cao */
+    background: #ffffff;
+    box-shadow: -4px 0 20px rgba(0, 0, 0, 0.2);
+    z-index: 9998;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(100%); /* ẩn ngoài màn hình */
+    transition: transform 0.3s ease;
+}
+
+    /* Khi mở panel */
+    .support-panel.open {
+        transform: translateX(0);
+    }
+
+/* Header panel chat */
+.support-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 16px;
+    background: #00a2ff;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.support-panel-actions {
+    display: flex;
+    gap: 6px;
+}
+
+.support-header-btn {
+    border: none;
+    background: #ffffff;
+    color: #00a2ff;
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .support-header-btn:hover {
+        opacity: 0.85;
+    }
+
+/* Ẩn hoàn toàn nút thu nhỏ nếu còn tồn tại trong HTML */
+#btn-support-minimize {
+    display: none !important;
+}
+
+/* Phần thân chứa iframe chat */
+.support-panel-body {
+    flex: 1;
+    background: #ffffff;
+}

@@ -1,0 +1,74 @@
+﻿@model BanHangWeb.Models.Order
+
+@{
+    ViewData["Title"] = "Đặt hàng thành công";
+}
+
+<div class="text-center mt-5 mb-4">
+    <h2 class="text-success fw-bold">🎉 Cảm ơn bạn đã đặt hàng!</h2>
+    <p class="fs-5 text-muted">Chúng tôi đã nhận được đơn hàng và sẽ liên hệ với bạn sớm để xác nhận & giao hàng.</p>
+    <hr class="w-50 mx-auto mt-4" />
+</div>
+
+<div class="card shadow-lg border-0 p-4 mb-5" style="max-width: 900px; margin: auto;">
+    <h4 class="mb-4 text-primary fw-bold">🧾 Thông tin đơn hàng</h4>
+
+    <div class="row mb-4">
+        <div class="col-md-6 mb-3">
+            <p><span class="fw-semibold text-dark">📦 Mã đơn hàng:</span> <span class="badge bg-info text-dark">@Model.Id</span></p>
+            <p><span class="fw-semibold text-dark">👤 Họ tên:</span> @Model.CustomerName</p>
+            <p><span class="fw-semibold text-dark">📞 Số điện thoại:</span> @Model.Phone</p>
+        </div>
+        <div class="col-md-6 mb-3">
+            <p><span class="fw-semibold text-dark">🏠 Địa chỉ giao hàng:</span> @Model.Address</p>
+            @if (!string.IsNullOrEmpty(Model.Note))
+            {
+                <p><span class="fw-semibold text-dark">📝 Ghi chú:</span> @Model.Note</p>
+            }
+        </div>
+    </div>
+
+    <h5 class="mb-3 fw-semibold">📋 Danh sách sản phẩm</h5>
+    <div class="table-responsive mb-4">
+        <table class="table table-bordered align-middle shadow-sm">
+            <thead class="table-primary text-center">
+                <tr>
+                    <th>Sản phẩm</th>
+                    <th>Số lượng</th>
+                    <th>Đơn giá</th>
+                    <th>Thành tiền</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.OrderDetails)
+                {
+                    var lineTotal = item.Quantity * item.Price;
+                    <tr>
+                        <td>@item.Product?.Name</td>
+                        <td class="text-center">@item.Quantity</td>
+                        <td class="text-end">@item.Price.ToString("#,##0") VNĐ</td>
+                        <td class="text-end fw-semibold">@lineTotal.ToString("#,##0") VNĐ</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 💰 Tổng kết thanh toán -->
+    <div class="border-top pt-3 text-end">
+        <p><span class="fw-semibold">💰 Tiền hàng:</span> @Model.TotalPrice.ToString("#,##0") VNĐ</p>
+        <p><span class="fw-semibold">🚚 Phí vận chuyển:</span> @Model.ShippingFee.ToString("#,##0") VNĐ</p>
+        <p class="fs-5 fw-bold text-success">
+            💳 Tổng thanh toán: @Model.TotalPayment.ToString("#,##0") VNĐ
+        </p>
+    </div>
+
+    <div class="text-center mt-4">
+        <a href="/" class="btn btn-outline-primary px-5 py-2 rounded-pill me-3 shadow-sm">
+            🏠 Về trang chủ
+        </a>
+        <a href="/Products" class="btn btn-success px-5 py-2 rounded-pill shadow-sm">
+            🛍️ Tiếp tục mua sắm
+        </a>
+    </div>
+</div>

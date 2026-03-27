@@ -1,0 +1,183 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Đăng ký";
+    ViewData["HideChrome"] = true;
+}
+
+@section Styles {
+    <style>
+        /* ---- FIX khoảng trắng: container của layout ở riêng trang này ---- */
+        main > .container {
+            max-width: 100%;
+            padding: 0; /* bỏ py-4 gây khoảng trắng trên/dưới */
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        /* Nền full màn hình cho trang đăng ký */
+        .signup-page {
+            min-height: 100vh; /* chiếm hết chiều cao màn hình */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px; /* nếu muốn sát mép trên/dưới thì giảm hoặc =0 */
+            background: radial-gradient(circle at top left, #243b6b 0, #021024 40%, #000814 100%);
+        }
+
+        /* Khung lớn (giống tấm hình thứ 2) */
+        .signup-card {
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            max-width: 1100px;
+            width: 100%;
+            border-radius: 28px;
+            overflow: hidden;
+            background: #3d2b5a;
+            box-shadow: 0 40px 80px rgba(0, 0, 0, 0.7);
+        }
+
+        /* Cột ảnh bên trái */
+        .signup-illustration {
+            flex: 1 1 50%;
+            position: relative;
+            background: #7b4bba;
+        }
+
+            .signup-illustration img {
+                position: absolute;
+                inset: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover; /* ảnh tự căn cho đầy khung như video */
+            }
+
+        /* Cột form bên phải */
+        .signup-form {
+            flex: 1 1 50%;
+            padding: 40px 48px;
+            color: #f5f3ff;
+            background: #201a2f;
+        }
+
+            .signup-form h2 {
+                font-weight: 700;
+                margin-bottom: 8px;
+            }
+
+            .signup-form p {
+                margin-bottom: 24px;
+                color: #a29cc5;
+            }
+
+            .signup-form .form-control {
+                border-radius: 12px;
+                border: 1px solid #433b60;
+                background: #2b233f;
+                color: #f5f3ff;
+                padding: 12px 14px;
+            }
+
+                .signup-form .form-control::placeholder {
+                    color: #7e759f;
+                }
+
+                .signup-form .form-control:focus {
+                    border-color: #a855ff;
+                    box-shadow: 0 0 0 1px rgba(168, 85, 255, 0.6);
+                }
+
+            .signup-form button[type="submit"] {
+                border-radius: 14px;
+                background: linear-gradient(90deg, #a855ff, #6366f1);
+                border: none;
+                padding: 12px 16px;
+                font-weight: 600;
+            }
+
+                .signup-form button[type="submit"]:hover {
+                    filter: brightness(1.05);
+                }
+
+            .signup-form a {
+                color: #c4b5fd;
+            }
+
+        /* Mobile: ẩn cột ảnh, cho form full chiều rộng */
+        @@media (max-width: 768px) {
+            .signup-card
+
+        {
+            flex-direction: column;
+        }
+
+        .signup-illustration {
+            display: none;
+        }
+
+        .signup-form {
+            padding: 32px 24px;
+        }
+
+        }
+    </style>
+}
+
+<div class="signup-page">
+    <div class="signup-card">
+        <!-- CỘT ẢNH BÊN TRÁI -->
+        <div class="signup-illustration">
+            <!-- Đổi đúng tên file ảnh thể thao của bạn -->
+            <img src="https://pos.nvncdn.com/822bfa-13829/ps/20180712_8I7T2Kq0UGFhY25WTeXA78TG.jpg?v=16737801121" alt="Signup Banner" />
+        </div>
+
+        <!-- CỘT FORM BÊN PHẢI -->
+        <div class="signup-form">
+            <h2>Tạo tài khoản mới</h2>
+            <p>Dùng email và mật khẩu của bạn</p>
+
+            <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+                <div class="mb-3">
+                    <input asp-for="Input.Email"
+                           class="form-control"
+                           placeholder="Email" />
+                    <span asp-validation-for="Input.Email" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <input asp-for="Input.Password"
+                           class="form-control"
+                           placeholder="Mật khẩu"
+                           type="password" />
+                    <span asp-validation-for="Input.Password" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-4">
+                    <input asp-for="Input.ConfirmPassword"
+                           class="form-control"
+                           placeholder="Xác nhận mật khẩu"
+                           type="password" />
+                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger small"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100 mb-3">
+                    Đăng ký
+                </button>
+
+                <div class="text-center small">
+                    Đã có tài khoản?
+                    <a asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">Đăng nhập</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

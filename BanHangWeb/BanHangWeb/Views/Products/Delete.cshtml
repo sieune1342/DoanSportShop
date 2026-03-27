@@ -1,0 +1,28 @@
+﻿@model BanHangWeb.Models.Product
+
+@{
+    ViewData["Title"] = "Xóa sản phẩm";
+}
+
+<h2>Xóa sản phẩm</h2>
+<h4>Bạn có chắc chắn muốn xóa sản phẩm này?</h4>
+
+<div>
+    <h5>@Model.Name</h5>
+    <p>Giá: @Model.Price VNĐ</p>
+    <p>Danh mục: @Model.Category?.Name</p>
+
+    <div>
+        <label>Ảnh sản phẩm:</label><br />
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <img src="@Model.ImageUrl" alt="Ảnh sản phẩm" width="100" class="mb-2" />
+        }
+    </div>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Xóa</button>
+        <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+    </form>
+</div>

@@ -1,0 +1,236 @@
+﻿@using Newtonsoft.Json
+<h2>📊 Thống kê tổng quan</h2>
+
+<div class="row mb-4">
+    <div class="col-md-3">
+        <div class="card text-white bg-primary mb-3 shadow">
+            <div class="card-body text-center">
+                <h5 class="card-title">🔢 Tổng đơn hàng</h5>
+                <p class="card-text display-6 fw-bold">@ViewBag.TotalOrders</p>
+                <div class="small mt-2">Hôm nay: <b>@ViewBag.OrdersToday</b> | Tuần: <b>@ViewBag.OrdersThisWeek</b> | Tháng: <b>@ViewBag.OrdersThisMonth</b></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-success mb-3 shadow">
+            <div class="card-body text-center">
+                <h5 class="card-title">📦 Tổng sản phẩm</h5>
+                <p class="card-text display-6 fw-bold">@ViewBag.TotalProducts</p>
+                <div class="small mt-2 text-warning">Sắp hết hàng: <b>@(ViewBag.LowStockProducts?.Count ?? 0)</b></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-info mb-3 shadow">
+            <div class="card-body text-center">
+                <h5 class="card-title">👥 Tổng khách hàng</h5>
+                <p class="card-text display-6 fw-bold">@ViewBag.TotalCustomers</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-warning mb-3 shadow">
+            <div class="card-body text-center">
+                <h5 class="card-title">💰 Tổng doanh thu</h5>
+                <p class="card-text display-6 fw-bold">@ViewBag.TotalRevenue.ToString("N0") đ</p>
+                <div class="small mt-2">Hôm nay: <b>@ViewBag.RevenueToday.ToString("N0")</b> | Tuần: <b>@ViewBag.RevenueThisWeek.ToString("N0")</b> | Tháng: <b>@ViewBag.RevenueThisMonth.ToString("N0")</b></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <div class="col-md-6 mb-4">
+        <div class="card shadow">
+            <div class="card-header bg-info text-white fw-bold">📈 Doanh thu 7 ngày gần nhất</div>
+            <div class="card-body">
+                <canvas id="revenue7daysChart" height="220"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-4">
+        <div class="card shadow">
+            <div class="card-header bg-secondary text-white fw-bold">📊 Đơn hàng theo trạng thái</div>
+            <div class="card-body">
+                <canvas id="ordersStatusChart" height="220"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 mb-4">
+        <div class="card shadow">
+            <div class="card-header bg-primary text-white fw-bold">🔥 Top 5 sản phẩm bán chạy</div>
+            <div class="card-body">
+                <canvas id="topProductsChart" height="220"></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-4">
+        <div class="card shadow">
+            <div class="card-header bg-success text-white fw-bold">🏆 Top khách hàng theo chi tiêu</div>
+            <div class="card-body">
+                <canvas id="topCustomersChart" height="220"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+@if (ViewBag.LowStockProducts != null && ViewBag.LowStockProducts.Count > 0)
+{
+    <div class="row mb-4">
+        <div class="col-md-12">
+            <div class="card border-danger shadow">
+                <div class="card-header bg-danger text-white fw-bold">⚠️ Sản phẩm sắp hết hàng</div>
+                <div class="card-body p-0">
+                    <table class="table table-sm table-bordered mb-0">
+                        <thead class="table-danger">
+                            <tr>
+                                <th>Tên sản phẩm</th>
+                                <th>Số lượng còn lại</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        @foreach (var p in ViewBag.LowStockProducts)
+                        {
+                            <tr>
+                                <td>@p.Name</td>
+                                <td class="fw-bold text-danger">@p.Quantity</td>
+                            </tr>
+                        }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<!-- Chart.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    // Dữ liệu từ ViewBag
+    const topProductNames = @Html.Raw(JsonConvert.SerializeObject(ViewBag.TopProductNames));
+    const topProductQuantities = @Html.Raw(JsonConvert.SerializeObject(ViewBag.TopProductQuantities));
+    const topCustomerEmails = @Html.Raw(JsonConvert.SerializeObject(ViewBag.TopCustomerEmails));
+    const topCustomerSpending = @Html.Raw(JsonConvert.SerializeObject(ViewBag.TopCustomerSpending));
+    const revenue7DaysLabels = @Html.Raw(JsonConvert.SerializeObject(ViewBag.RevenueLast7DaysLabels));
+    const revenue7DaysData = @Html.Raw(JsonConvert.SerializeObject(ViewBag.RevenueLast7DaysData));
+    const ordersStatusLabels = @Html.Raw(JsonConvert.SerializeObject(ViewBag.OrdersByStatusLabels));
+    const ordersStatusData = @Html.Raw(JsonConvert.SerializeObject(ViewBag.OrdersByStatusData));
+
+    // Biểu đồ doanh thu 7 ngày gần nhất
+    new Chart(document.getElementById('revenue7daysChart').getContext('2d'), {
+        type: 'line',
+        data: {
+            labels: revenue7DaysLabels,
+            datasets: [{
+                label: 'Doanh thu',
+                data: revenue7DaysData,
+                borderColor: 'rgba(54, 162, 235, 1)',
+                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                tension: 0.3,
+                fill: true,
+                pointRadius: 5,
+                pointBackgroundColor: 'rgba(54, 162, 235, 1)'
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { display: false },
+                title: { display: true, text: 'Doanh thu 7 ngày gần nhất', font: { size: 18 } }
+            },
+            scales: {
+                y: { beginAtZero: true }
+            }
+        }
+    });
+
+    // Biểu đồ đơn hàng theo trạng thái
+    new Chart(document.getElementById('ordersStatusChart').getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels: ordersStatusLabels,
+            datasets: [{
+                label: 'Số đơn hàng',
+                data: ordersStatusData,
+                backgroundColor: [
+                    'rgba(255, 205, 86, 0.7)',
+                    'rgba(54, 162, 235, 0.7)',
+                    'rgba(75, 192, 192, 0.7)',
+                    'rgba(255, 99, 132, 0.7)'
+                ],
+                borderRadius: 8
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { display: false },
+                title: { display: true, text: 'Đơn hàng theo trạng thái', font: { size: 18 } }
+            },
+            scales: {
+                y: { beginAtZero: true }
+            }
+        }
+    });
+
+    // Biểu đồ sản phẩm bán chạy
+    new Chart(document.getElementById('topProductsChart').getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels: topProductNames,
+            datasets: [{
+                label: 'Số lượng bán',
+                data: topProductQuantities,
+                backgroundColor: [
+                    'rgba(54, 162, 235, 0.7)',
+                    'rgba(255, 99, 132, 0.7)',
+                    'rgba(255, 206, 86, 0.7)',
+                    'rgba(75, 192, 192, 0.7)',
+                    'rgba(153, 102, 255, 0.7)'
+                ],
+                borderRadius: 8
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { display: false },
+                title: { display: true, text: 'Top 5 sản phẩm bán chạy', font: { size: 18 } }
+            },
+            scales: {
+                y: { beginAtZero: true }
+            }
+        }
+    });
+
+    // Biểu đồ khách hàng chi tiêu nhiều
+    new Chart(document.getElementById('topCustomersChart').getContext('2d'), {
+        type: 'doughnut',
+        data: {
+            labels: topCustomerEmails,
+            datasets: [{
+                label: 'Tổng chi tiêu',
+                data: topCustomerSpending,
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.7)',
+                    'rgba(255, 206, 86, 0.7)',
+                    'rgba(75, 192, 192, 0.7)',
+                    'rgba(153, 102, 255, 0.7)',
+                    'rgba(54, 162, 235, 0.7)'
+                ],
+                borderWidth: 2
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { position: 'bottom' },
+                title: { display: true, text: 'Top khách hàng chi tiêu', font: { size: 18 } }
+            }
+        }
+    });
+</script>
